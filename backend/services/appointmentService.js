@@ -1,8 +1,11 @@
-const fs = require('fs').promises;
-const path = require('path');
-const moment = require('moment');
-const logger = require('../utils/logger');
-const emailService = require('./emailService');
+import { promises as fs } from 'fs';
+import path from 'path';
+import moment from 'moment';
+import logger from '../utils/logger.js';
+import emailService from './emailService.js';
+import { fileURLToPath } from 'url';
+
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
 const APPOINTMENTS_FILE = path.join(__dirname, '../data/appointments.json');
 
@@ -338,4 +341,4 @@ class AppointmentService {
   }
 }
 
-module.exports = new AppointmentService();
+export default new AppointmentService();

@@ -1,6 +1,7 @@
-const express = require('express');
+import express from 'express';
+import * as userController from '../controllers/userController.js';
+
 const router = express.Router();
-const userController = require('../controllers/userController');
 
 // POST register
 router.post('/register', userController.register);
@@ -17,4 +18,4 @@ router.post('/login', userController.login);
 // GET all users (admin only)
 // router.get('/', protect, authorize('admin'), userController.getAllUsers);
 
-module.exports = router;
+export default router;

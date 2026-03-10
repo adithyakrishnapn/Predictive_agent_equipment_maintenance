@@ -1,6 +1,7 @@
-const express = require('express');
+import express from 'express';
+import * as analyticsController from '../controllers/analyticsController.js';
+
 const router = express.Router();
-const analyticsController = require('../controllers/analyticsController');
 
 // GET dashboard analytics
 router.get('/dashboard', analyticsController.getDashboard);
@@ -17,4 +18,4 @@ router.get('/reliability', analyticsController.getAllReliabilityMetrics);
 // GET reliability metrics for a specific machine
 router.get('/reliability/:machineId', analyticsController.getMachineReliabilityMetrics);
 
-module.exports = router;
+export default router;

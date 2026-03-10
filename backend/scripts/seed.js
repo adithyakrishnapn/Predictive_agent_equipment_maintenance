@@ -1,7 +1,7 @@
-require('dotenv').config();
-const connectDB = require('../config/database');
-const seedDatabase = require('../utils/seedDatabase');
-const logger = require('../utils/logger');
+import 'dotenv/config.js';
+import connectDB from '../config/database.js';
+import seedDatabase from '../utils/seedDatabase.js';
+import logger from '../utils/logger.js';
 
 const runSeeder = async () => {
   try {

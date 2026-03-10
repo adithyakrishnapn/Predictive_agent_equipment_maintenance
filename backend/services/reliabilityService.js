@@ -1,7 +1,10 @@
-const fs = require('fs').promises;
-const path = require('path');
-const logger = require('../utils/logger');
-const moment = require('moment');
+import { promises as fs } from 'fs';
+import path from 'path';
+import logger from '../utils/logger.js';
+import moment from 'moment';
+import { fileURLToPath } from 'url';
+
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
 // Data file paths
 const MACHINES_FILE = path.join(__dirname, '../data/machines.json');
@@ -100,7 +103,7 @@ const calculateDowntimeCost = (downtimeDuration, revenuePerHour) => {
 /**
  * Get reliability metrics for a specific machine
  */
-exports.getMachineReliabilityMetrics = async (machineId, periodDays = 30) => {
+export const getMachineReliabilityMetrics = async (machineId, periodDays = 30) => {
   try {
     const machine = await getMachineById(machineId);
     if (!machine) {
@@ -232,7 +235,7 @@ exports.getMachineReliabilityMetrics = async (machineId, periodDays = 30) => {
 /**
  * Get reliability metrics for all machines
  */
-exports.getAllMachinesReliabilityMetrics = async (periodDays = 30) => {
+export const getAllMachinesReliabilityMetrics = async (periodDays = 30) => {
   try {
     const machines = await getMachines();
     const metricsPromises = machines.map(machine => 
@@ -272,5 +275,3 @@ exports.getAllMachinesReliabilityMetrics = async (periodDays = 30) => {
     throw error;
   }
 };
-
-module.exports = exports;

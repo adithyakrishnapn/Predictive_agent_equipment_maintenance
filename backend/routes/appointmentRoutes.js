@@ -1,6 +1,7 @@
-const express = require('express');
+import express from 'express';
+import * as appointmentController from '../controllers/appointmentController.js';
+
 const router = express.Router();
-const appointmentController = require('../controllers/appointmentController');
 
 // GET all appointments
 router.get('/', appointmentController.getAllAppointments);
@@ -23,4 +24,4 @@ router.put('/:appointmentId/cancel', appointmentController.cancelAppointment);
 // POST bulk reschedule appointments
 router.post('/bulk-reschedule', appointmentController.bulkReschedule);
 
-module.exports = router;
+export default router;

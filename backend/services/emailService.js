@@ -1,18 +1,28 @@
-const nodemailer = require('nodemailer');
-const logger = require('../utils/logger');
+import nodemailer from 'nodemailer';
+import logger from '../utils/logger.js';
 
 class EmailService {
-  constructor() {
-    this.transporter = nodemailer.createTransport({
-      service: process.env.EMAIL_SERVICE || 'gmail',
-      host: process.env.EMAIL_HOST || 'smtp.gmail.com',
-      port: parseInt(process.env.EMAIL_PORT) || 587,
-      secure: process.env.EMAIL_SECURE === 'true',
-      auth: {
-        user: process.env.EMAIL_USER,
-        pass: process.env.EMAIL_PASSWORD
+  get hasValidCredentials() {
+    return !!(process.env.EMAIL_USER && process.env.EMAIL_PASSWORD);
+  }
+  
+  getTransporter() {
+    if (!this.transporter) {
+      if (!this.hasValidCredentials) {
+        logger.warn('Email credentials not configured');
       }
-    });
+      this.transporter = nodemailer.createTransport({
+        service: process.env.EMAIL_SERVICE || 'gmail',
+        host: process.env.EMAIL_HOST || 'smtp.gmail.com',
+        port: parseInt(process.env.EMAIL_PORT) || 587,
+        secure: process.env.EMAIL_SECURE === 'true',
+        auth: {
+          user: process.env.EMAIL_USER,
+          pass: process.env.EMAIL_PASSWORD
+        }
+      });
+    }
+    return this.transporter;
   }
 
   /**
@@ -20,6 +30,18 @@ class EmailService {
    */
   async contactServiceVendor(machine_id, fault_summary, urgency, preferred_window) {
     try {
+      // If no valid credentials, skip sending but log and return success
+      if (!this.hasValidCredentials) {
+        logger.warn(`Skipping vendor email for ${machine_id} - email credentials not configured`);
+        return {
+          success: true,
+          messageId: 'SKIPPED_NO_CREDENTIALS',
+          vendor_email: process.env.VENDOR_EMAIL || 'not-configured@test.com',
+          scheduled_window: preferred_window,
+          note: 'Email sending skipped - credentials not configured'
+        };
+      }
+
       const mailOptions = {
         from: process.env.EMAIL_USER,
         to: process.env.VENDOR_EMAIL,
@@ -36,7 +58,7 @@ class EmailService {
         `
       };
 
-      const result = await this.transporter.sendMail(mailOptions);
+      const result = await this.getTransporter().sendMail(mailOptions);
       logger.info(`Vendor email sent for ${machine_id}: ${result.messageId}`);
       
       return {
@@ -56,6 +78,18 @@ class EmailService {
    */
   async notifyEngineeringTeam(machine_id, risk_report, recommended_action) {
     try {
+      // If no valid credentials, skip sending but log and return success
+      if (!this.hasValidCredentials) {
+        logger.warn(`Skipping engineering team notification for ${machine_id} - email credentials not configured`);
+        return {
+          success: true,
+          messageId: 'SKIPPED_NO_CREDENTIALS',
+          recipients: [process.env.ENGINEERING_TEAM_EMAIL || 'not-configured@test.com'],
+          timestamp: new Date(),
+          note: 'Email sending skipped - credentials not configured'
+        };
+      }
+
       const {
         predicted_failure_type,
         confidence_level,
@@ -130,7 +164,7 @@ class EmailService {
         `
       };
 
-      const result = await this.transporter.sendMail(mailOptions);
+      const result = await this.getTransporter().sendMail(mailOptions);
       logger.info(`Engineering team notified for ${machine_id}: ${result.messageId}`);
       
       return {
@@ -150,6 +184,17 @@ class EmailService {
    */
   async notifyPatientReschedule(patient_email, appointment_details, reason) {
     try {
+      // If no valid credentials, skip sending but log and return success
+      if (!this.hasValidCredentials) {
+        logger.warn(`Skipping patient reschedule notification for ${patient_email} - email credentials not configured`);
+        return {
+          success: true,
+          messageId: 'SKIPPED_NO_CREDENTIALS',
+          recipient: patient_email,
+          note: 'Email sending skipped - credentials not configured'
+        };
+      }
+
       const mailOptions = {
         from: process.env.EMAIL_USER,
         to: patient_email,
@@ -179,7 +224,7 @@ class EmailService {
         `
       };
 
-      const result = await this.transporter.sendMail(mailOptions);
+      const result = await this.getTransporter().sendMail(mailOptions);
       logger.info(`Patient rescheduling notification sent: ${result.messageId}`);
       
       return {
@@ -197,7 +242,7 @@ class EmailService {
    */
   async verifyConnection() {
     try {
-      await this.transporter.verify();
+      await this.getTransporter().verify();
       logger.info('Email service connection verified');
       return true;
     } catch (error) {
@@ -207,4 +252,4 @@ class EmailService {
   }
 }
 
-module.exports = new EmailService();
+export default new EmailService();

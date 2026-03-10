@@ -1,13 +1,13 @@
-const MLServiceClient = require('../services/mlService');
-const appointmentService = require('../services/appointmentService');
-const reliabilityService = require('../services/reliabilityService');
-const logger = require('../utils/logger');
-const moment = require('moment');
+import MLServiceClient from '../services/mlService.js';
+import appointmentService from '../services/appointmentService.js';
+import * as reliabilityService from '../services/reliabilityService.js';
+import logger from '../utils/logger.js';
+import moment from 'moment';
 
 /**
  * Get dashboard analytics
  */
-exports.getDashboard = async (req, res, next) => {
+export const getDashboard = async (req, res, next) => {
   try {
     // Get all machines from ML service
     const mlData = await MLServiceClient.getAllMachines();
@@ -52,7 +52,7 @@ exports.getDashboard = async (req, res, next) => {
 /**
  * Get cost analysis
  */
-exports.getCostAnalysis = async (req, res, next) => {
+export const getCostAnalysis = async (req, res, next) => {
   try {
     const { timeframe = '30' } = req.query; // days
     
@@ -102,7 +102,7 @@ exports.getCostAnalysis = async (req, res, next) => {
 /**
  * Get predictive insights
  */
-exports.getPredictiveInsights = async (req, res, next) => {
+export const getPredictiveInsights = async (req, res, next) => {
   try {
     const mlData = await MLServiceClient.getAllMachines();
     const machines = mlData.machines || [];
@@ -157,7 +157,7 @@ exports.getPredictiveInsights = async (req, res, next) => {
 /**
  * Get reliability metrics for a specific machine
  */
-exports.getMachineReliabilityMetrics = async (req, res, next) => {
+export const getMachineReliabilityMetrics = async (req, res, next) => {
   try {
     const { machineId } = req.params;
     const { period = 30 } = req.query; // Default 30 days
@@ -185,7 +185,7 @@ exports.getMachineReliabilityMetrics = async (req, res, next) => {
 /**
  * Get reliability metrics for all machines
  */
-exports.getAllReliabilityMetrics = async (req, res, next) => {
+export const getAllReliabilityMetrics = async (req, res, next) => {
   try {
     const { period = 30 } = req.query; // Default 30 days
     

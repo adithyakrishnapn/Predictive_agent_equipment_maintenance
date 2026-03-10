@@ -1,4 +1,4 @@
-const mongoose = require('mongoose');
+import mongoose from 'mongoose';
 
 const machineSchema = new mongoose.Schema({
   machine_id: {
@@ -66,4 +66,4 @@ machineSchema.index({ machine_id: 1 });
 machineSchema.index({ status: 1 });
 machineSchema.index({ current_risk_level: 1 });
 
-module.exports = mongoose.model('Machine', machineSchema);
+export default mongoose.model('Machine', machineSchema);

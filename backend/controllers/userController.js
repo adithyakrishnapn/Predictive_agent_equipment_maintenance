@@ -1,11 +1,11 @@
-const User = require('../models/User');
-const jwt = require('jsonwebtoken');
-const logger = require('../utils/logger');
+import User from '../models/User.js';
+import jwt from 'jsonwebtoken';
+import logger from '../utils/logger.js';
 
 /**
  * Register new user
  */
-exports.register = async (req, res, next) => {
+export const register = async (req, res, next) => {
   try {
     const { name, email, password, role } = req.body;
     
@@ -50,7 +50,7 @@ exports.register = async (req, res, next) => {
 /**
  * Login user
  */
-exports.login = async (req, res, next) => {
+export const login = async (req, res, next) => {
   try {
     const { email, password } = req.body;
     
@@ -103,7 +103,7 @@ exports.login = async (req, res, next) => {
 /**
  * Get current user profile
  */
-exports.getProfile = async (req, res, next) => {
+export const getProfile = async (req, res, next) => {
   try {
     const user = await User.findById(req.user.id);
     
@@ -120,7 +120,7 @@ exports.getProfile = async (req, res, next) => {
 /**
  * Update user profile
  */
-exports.updateProfile = async (req, res, next) => {
+export const updateProfile = async (req, res, next) => {
   try {
     const allowedUpdates = ['name', 'phone', 'department', 'preferences'];
     const updates = {};
@@ -150,7 +150,7 @@ exports.updateProfile = async (req, res, next) => {
 /**
  * Get all users (admin only)
  */
-exports.getAllUsers = async (req, res, next) => {
+export const getAllUsers = async (req, res, next) => {
   try {
     const users = await User.find().select('-password');
     

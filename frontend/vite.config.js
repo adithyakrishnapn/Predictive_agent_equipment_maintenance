@@ -4,8 +4,8 @@ import react from '@vitejs/plugin-react'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
-  // Use relative asset paths so built files resolve correctly behind proxies/subpaths.
-  base: './',
+  // Use absolute root to ensure subpath routing works correctly in production.
+  base: '/',
   server: {
     port: 3000,
     proxy: {

@@ -1,6 +1,7 @@
-const express = require('express');
+import express from 'express';
+import * as vendorController from '../controllers/vendorController.js';
+
 const router = express.Router();
-const vendorController = require('../controllers/vendorController');
 
 // GET all vendors
 router.get('/', vendorController.getAllVendors);
@@ -23,4 +24,4 @@ router.delete('/:id', vendorController.deleteVendor);
 // POST add service record
 router.post('/:id/service', vendorController.addServiceRecord);
 
-module.exports = router;
+export default router;

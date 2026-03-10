@@ -1,10 +1,10 @@
-const Vendor = require('../models/Vendor');
-const logger = require('../utils/logger');
+import Vendor from '../models/Vendor.js';
+import logger from '../utils/logger.js';
 
 /**
  * Get all vendors
  */
-exports.getAllVendors = async (req, res, next) => {
+export const getAllVendors = async (req, res, next) => {
   try {
     const { specialization, active } = req.query;
     
@@ -34,7 +34,7 @@ exports.getAllVendors = async (req, res, next) => {
 /**
  * Get vendor by ID
  */
-exports.getVendorById = async (req, res, next) => {
+export const getVendorById = async (req, res, next) => {
   try {
     const vendor = await Vendor.findById(req.params.id);
     
@@ -58,7 +58,7 @@ exports.getVendorById = async (req, res, next) => {
 /**
  * Create new vendor
  */
-exports.createVendor = async (req, res, next) => {
+export const createVendor = async (req, res, next) => {
   try {
     const vendor = await Vendor.create(req.body);
     
@@ -77,7 +77,7 @@ exports.createVendor = async (req, res, next) => {
 /**
  * Update vendor
  */
-exports.updateVendor = async (req, res, next) => {
+export const updateVendor = async (req, res, next) => {
   try {
     const vendor = await Vendor.findByIdAndUpdate(
       req.params.id,
@@ -105,7 +105,7 @@ exports.updateVendor = async (req, res, next) => {
 /**
  * Delete vendor (soft delete)
  */
-exports.deleteVendor = async (req, res, next) => {
+export const deleteVendor = async (req, res, next) => {
   try {
     const vendor = await Vendor.findByIdAndUpdate(
       req.params.id,
@@ -133,7 +133,7 @@ exports.deleteVendor = async (req, res, next) => {
 /**
  * Add service record to vendor
  */
-exports.addServiceRecord = async (req, res, next) => {
+export const addServiceRecord = async (req, res, next) => {
   try {
     const vendor = await Vendor.findById(req.params.id);
     
@@ -169,7 +169,7 @@ exports.addServiceRecord = async (req, res, next) => {
 /**
  * Get recommended vendors for machine type
  */
-exports.getRecommendedVendors = async (req, res, next) => {
+export const getRecommendedVendors = async (req, res, next) => {
   try {
     const { machineType } = req.params;
     

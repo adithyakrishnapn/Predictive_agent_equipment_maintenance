@@ -1,11 +1,11 @@
-const MLServiceClient = require('../services/mlService');
-const emailService = require('../services/emailService');
-const logger = require('../utils/logger');
+import MLServiceClient from '../services/mlService.js';
+import emailService from '../services/emailService.js';
+import logger from '../utils/logger.js';
 
 /**
  * Create and process alert
  */
-exports.createAlert = async (req, res, next) => {
+export const createAlert = async (req, res, next) => {
   try {
     const { machine_id, alert_type, severity, notify = false } = req.body;
     
@@ -69,7 +69,7 @@ exports.createAlert = async (req, res, next) => {
 /**
  * Test email configuration
  */
-exports.testEmail = async (req, res, next) => {
+export const testEmail = async (req, res, next) => {
   try {
     const isConfigured = await emailService.verifyConnection();
     

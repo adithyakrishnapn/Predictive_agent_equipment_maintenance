@@ -1,8 +1,8 @@
-const axios = require('axios');
-const moment = require('moment');
-const logger = require('../utils/logger');
-const emailService = require('./emailService');
-const appointmentService = require('./appointmentService');
+import axios from 'axios';
+import moment from 'moment';
+import logger from '../utils/logger.js';
+import emailService from './emailService.js';
+import appointmentService from './appointmentService.js';
 
 const ML_SERVICE_URL = process.env.ML_SERVICE_URL || 'http://localhost:8000';
 
@@ -470,4 +470,4 @@ class MLServiceClient {
   }
 }
 
-module.exports = MLServiceClient;
+export default MLServiceClient;

@@ -1,6 +1,7 @@
-const express = require('express');
+import express from 'express';
+import * as machineController from '../controllers/machineController.js';
+
 const router = express.Router();
-const machineController = require('../controllers/machineController');
 
 // GET all machines
 router.get('/', machineController.getAllMachines);
@@ -34,4 +35,4 @@ router.post('/:machineId/monitoring/start', machineController.startMonitoring);
 router.post('/:machineId/monitoring/stop', machineController.stopMonitoring);
 router.get('/:machineId/monitoring/status', machineController.getMonitoringStatus);
 
-module.exports = router;
+export default router;

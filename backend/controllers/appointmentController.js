@@ -1,11 +1,11 @@
-const appointmentService = require('../services/appointmentService');
-const MLServiceClient = require('../services/mlService');
-const logger = require('../utils/logger');
+import appointmentService from '../services/appointmentService.js';
+import MLServiceClient from '../services/mlService.js';
+import logger from '../utils/logger.js';
 
 /**
  * Get all appointments
  */
-exports.getAllAppointments = async (req, res, next) => {
+export const getAllAppointments = async (req, res, next) => {
   try {
     const { machine_id, status, date } = req.query;
     const appointments = await appointmentService.getAllAppointments({ machine_id, status, date });
@@ -24,7 +24,7 @@ exports.getAllAppointments = async (req, res, next) => {
 /**
  * Get machine schedule
  */
-exports.getMachineSchedule = async (req, res, next) => {
+export const getMachineSchedule = async (req, res, next) => {
   try {
     const { machineId } = req.params;
     const { start_date, end_date } = req.query;
@@ -45,7 +45,7 @@ exports.getMachineSchedule = async (req, res, next) => {
 /**
  * Create new appointment
  */
-exports.createAppointment = async (req, res, next) => {
+export const createAppointment = async (req, res, next) => {
   try {
     const appointment = await appointmentService.createAppointment(req.body);
     
@@ -63,7 +63,7 @@ exports.createAppointment = async (req, res, next) => {
 /**
  * Reschedule appointment
  */
-exports.rescheduleAppointment = async (req, res, next) => {
+export const rescheduleAppointment = async (req, res, next) => {
   try {
     const { appointmentId } = req.params;
     const { new_slot, reason } = req.body;
@@ -91,7 +91,7 @@ exports.rescheduleAppointment = async (req, res, next) => {
 /**
  * Cancel appointment
  */
-exports.cancelAppointment = async (req, res, next) => {
+export const cancelAppointment = async (req, res, next) => {
   try {
     const { appointmentId } = req.params;
     const { reason } = req.body;
@@ -112,7 +112,7 @@ exports.cancelAppointment = async (req, res, next) => {
 /**
  * Get affected appointments for maintenance window
  */
-exports.getAffectedAppointments = async (req, res, next) => {
+export const getAffectedAppointments = async (req, res, next) => {
   try {
     const { machine_id, start_time, end_time } = req.query;
     
@@ -138,7 +138,7 @@ exports.getAffectedAppointments = async (req, res, next) => {
 /**
  * Bulk reschedule appointments
  */
-exports.bulkReschedule = async (req, res, next) => {
+export const bulkReschedule = async (req, res, next) => {
   try {
     const { appointment_ids, reason } = req.body;
     

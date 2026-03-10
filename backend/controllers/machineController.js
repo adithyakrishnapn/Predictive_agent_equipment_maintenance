@@ -1,5 +1,5 @@
-const MLServiceClient = require('../services/mlService');
-const logger = require('../utils/logger');
+import MLServiceClient from '../services/mlService.js';
+import logger from '../utils/logger.js';
 
 /**
  * Resolve current readings from request body or latest telemetry record.
@@ -32,7 +32,7 @@ async function resolveCurrentReadings(machineId, requestReadings) {
 /**
  * Get all machines with ML predictions
  */
-exports.getAllMachines = async (req, res, next) => {
+export const getAllMachines = async (req, res, next) => {
   try {
     const mlData = await MLServiceClient.getAllMachines();
     
@@ -50,7 +50,7 @@ exports.getAllMachines = async (req, res, next) => {
 /**
  * Get machine by ID with ML health prediction
  */
-exports.getMachineById = async (req, res, next) => {
+export const getMachineById = async (req, res, next) => {
   try {
     const { machineId } = req.params;
     const mlPrediction = await MLServiceClient.getMachineHealth(machineId);
@@ -68,7 +68,7 @@ exports.getMachineById = async (req, res, next) => {
 /**
  * Get machine telemetry data with optional date range
  */
-exports.getMachineTelemetry = async (req, res, next) => {
+export const getMachineTelemetry = async (req, res, next) => {
   try {
     const { machineId } = req.params;
     const { start_date, end_date } = req.query;
@@ -89,7 +89,7 @@ exports.getMachineTelemetry = async (req, res, next) => {
 /**
  * Compute baseline for a machine
  */
-exports.computeBaseline = async (req, res, next) => {
+export const computeBaseline = async (req, res, next) => {
   try {
     const { machineId } = req.params;
     const { lookback_days = 30 } = req.query;
@@ -109,7 +109,7 @@ exports.computeBaseline = async (req, res, next) => {
 /**
  * Detect anomalies in current readings
  */
-exports.detectAnomalies = async (req, res, next) => {
+export const detectAnomalies = async (req, res, next) => {
   try {
     const { machineId } = req.params;
     const { current_readings, lookback_days = 30 } = req.body;
@@ -135,7 +135,7 @@ exports.detectAnomalies = async (req, res, next) => {
 /**
  * Classify failure risk
  */
-exports.classifyFailureRisk = async (req, res, next) => {
+export const classifyFailureRisk = async (req, res, next) => {
   try {
     const { anomaly_report } = req.body;
     
@@ -161,7 +161,7 @@ exports.classifyFailureRisk = async (req, res, next) => {
 /**
  * Contact service vendor
  */
-exports.contactVendor = async (req, res, next) => {
+export const contactVendor = async (req, res, next) => {
   try {
     const { machineId } = req.params;
     const { fault_summary, urgency, preferred_window } = req.body;
@@ -194,7 +194,7 @@ exports.contactVendor = async (req, res, next) => {
 /**
  * Notify engineering team
  */
-exports.notifyEngineering = async (req, res, next) => {
+export const notifyEngineering = async (req, res, next) => {
   try {
     const { machineId } = req.params;
     const { risk_report, recommended_action } = req.body;
@@ -226,7 +226,7 @@ exports.notifyEngineering = async (req, res, next) => {
 /**
  * Complete diagnostic workflow
  */
-exports.runDiagnostics = async (req, res, next) => {
+export const runDiagnostics = async (req, res, next) => {
   try {
     const { machineId } = req.params;
     const { current_readings, notify = false } = req.body;
@@ -274,7 +274,7 @@ exports.runDiagnostics = async (req, res, next) => {
 /**
  * Start continuous monitoring for a machine via ML service
  */
-exports.startMonitoring = async (req, res, next) => {
+export const startMonitoring = async (req, res, next) => {
   try {
     const { machineId } = req.params;
     const monitoring = await MLServiceClient.startMonitoring(machineId);
@@ -293,7 +293,7 @@ exports.startMonitoring = async (req, res, next) => {
 /**
  * Stop continuous monitoring for a machine via ML service
  */
-exports.stopMonitoring = async (req, res, next) => {
+export const stopMonitoring = async (req, res, next) => {
   try {
     const { machineId } = req.params;
     const monitoring = await MLServiceClient.stopMonitoring(machineId);
@@ -312,7 +312,7 @@ exports.stopMonitoring = async (req, res, next) => {
 /**
  * Get continuous monitoring status for a machine via ML service
  */
-exports.getMonitoringStatus = async (req, res, next) => {
+export const getMonitoringStatus = async (req, res, next) => {
   try {
     const { machineId } = req.params;
     const monitoring = await MLServiceClient.getMonitoringStatus(machineId);

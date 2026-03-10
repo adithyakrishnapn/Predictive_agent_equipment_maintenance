@@ -1,8 +1,8 @@
-const Machine = require('../models/Machine');
-const Vendor = require('../models/Vendor');
-const Appointment = require('../models/Appointment');
-const User = require('../models/User');
-const logger = require('../utils/logger');
+import Machine from '../models/Machine.js';
+import Vendor from '../models/Vendor.js';
+import Appointment from '../models/Appointment.js';
+import User from '../models/User.js';
+import logger from '../utils/logger.js';
 
 const seedDatabase = async () => {
   try {
@@ -335,4 +335,4 @@ const seedDatabase = async () => {
   }
 };
 
-module.exports = seedDatabase;
+export default seedDatabase;
