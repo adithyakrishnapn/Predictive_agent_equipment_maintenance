@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import './App.css';
 import Dashboard from './pages/Dashboard.jsx';
 import MachineDetail from './pages/MachineDetail.jsx';
@@ -79,6 +79,7 @@ export default function App() {
           <MachineDetail
             apiUrl={apiUrl}
             machineId={selectedMachineId}
+            onMachineChange={setSelectedMachineId}
             onBack={() => navigateTo('dashboard')}
             hasProcessingStarted={!!machineProcessingById[selectedMachineId]}
             setHasProcessingStarted={(started) => setMachineProcessingStarted(selectedMachineId, started)}

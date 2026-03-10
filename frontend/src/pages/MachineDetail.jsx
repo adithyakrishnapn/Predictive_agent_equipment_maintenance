@@ -5,6 +5,7 @@ import '../styles/MachineDetail.css';
 export default function MachineDetail({
   apiUrl,
   machineId,
+  onMachineChange,
   onBack,
   hasProcessingStarted,
   setHasProcessingStarted
@@ -17,6 +18,24 @@ export default function MachineDetail({
   const [actionMessage, setActionMessage] = useState('');
   const [actionLoading, setActionLoading] = useState(false);
   const [isMonitoring, setIsMonitoring] = useState(false);
+  const [machineOptions, setMachineOptions] = useState([]);
+
+  useEffect(() => {
+    const fetchMachineOptions = async () => {
+      try {
+        const res = await fetch(`${apiUrl}/machines`);
+        if (!res.ok) return;
+        const data = await res.json();
+        const ids = (data.data || []).map((m) => m.machine_id).filter(Boolean);
+        setMachineOptions(ids);
+      } catch {
+        // Keep detail page functional even when options cannot be loaded.
+      }
+    };
+
+    fetchMachineOptions();
+  }, [apiUrl]);
+
   useEffect(() => {
     // Preserve processing state across tab switches and only clear when not started.
     if (hasProcessingStarted) {
@@ -253,6 +272,20 @@ export default function MachineDetail({
     <div className="machine-detail">
       <div className="detail-header">
         <button className="back-btn" onClick={onBack}>← Back to Dashboard</button>
+        <div className="machine-selector-wrap">
+          <label htmlFor="machine-selector">Machine</label>
+          <select
+            id="machine-selector"
+            className="machine-selector"
+            value={machineId}
+            onChange={(e) => onMachineChange?.(e.target.value)}
+          >
+            {machineOptions.length === 0 && <option value={machineId}>{machineId}</option>}
+            {machineOptions.map((id) => (
+              <option key={id} value={id}>{id}</option>
+            ))}
+          </select>
+        </div>
         <h2>{machineId}</h2>
         <span className={`monitoring-pill ${isMonitoring ? 'active' : 'inactive'}`}>
           {isMonitoring ? 'Monitoring: ON' : 'Monitoring: OFF'}

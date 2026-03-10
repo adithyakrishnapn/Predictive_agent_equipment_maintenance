@@ -9,6 +9,27 @@
   margin-bottom: 2rem;
 }
 
+.machine-selector-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.machine-selector-wrap label {
+  font-size: 0.8rem;
+  color: #555;
+  font-weight: 600;
+}
+
+.machine-selector {
+  min-width: 160px;
+  padding: 0.45rem 0.6rem;
+  border: 1px solid #cfd8dc;
+  border-radius: 6px;
+  background: #fff;
+  font-weight: 600;
+}
+
 .back-btn {
   background: #42A5F5;
   color: white;

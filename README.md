@@ -10,16 +10,17 @@ The system predicts machine risk, enables monitoring start/stop, automates notif
 ## Table Of Contents
 1. Overview
 2. Core Features
-3. Architecture
-4. Project Structure
-5. Prerequisites
-6. Environment Configuration
-7. Run Locally
-8. API Endpoints
-9. Reliability Metrics
-10. Data Storage
-11. Troubleshooting
-12. Current Implementation Notes
+3. Screenshots
+4. Architecture
+5. Project Structure
+6. Prerequisites
+7. Environment Configuration
+8. Run Locally
+9. API Endpoints
+10. Reliability Metrics
+11. Data Storage
+12. Troubleshooting
+13. Current Implementation Notes
 
 ## Overview
 This project is designed to help operations teams:
@@ -36,6 +37,24 @@ This project is designed to help operations teams:
 - Dashboard analytics and cost analysis
 - Reliability metrics page with formulas and calculations
 - JSON-based storage for backend records (no MongoDB required for current flow)
+
+## Screenshots
+Place all README screenshots in `readmeImages/` and keep names stable so links do not break.
+
+### Dashboard
+![Dashboard](readmeImages/1.png)
+
+### Machine Detail
+![Machine Detail](readmeImages/2.png)
+
+### Reliability Metrics
+![Reliability Metrics](readmeImages/3.png)
+
+### Cost Analysis
+![Cost Analysis](readmeImages/4.png)
+
+### Appointments
+![Appointments](readmeImages/5.png)
 
 ## Architecture
 Frontend (React/Vite)
@@ -130,7 +149,7 @@ Open separate terminals.
 ### 1) Start ML Service
 From repository root (`d:\Projects\Predictive_agent`):
 ```powershell
-python -m uvicorn ml_service.app:app --host 127.0.0.1 --port 8001
+python -m uvicorn ml_service.app:app --host 127.0.0.1 --port 8000
 ```
 
 ### 2) Start Backend
