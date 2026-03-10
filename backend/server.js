@@ -17,11 +17,32 @@ const app = express();
 const PORT = process.env.PORT || 5000;
 
 // Middleware
-app.use(helmet()); // Security headers
+app.use(helmet({
+  contentSecurityPolicy: false,
+  crossOriginEmbedderPolicy: false
+})); // Security headers
 app.use(compression()); // Compress responses
 app.use(cors()); // Enable CORS
 app.use(express.json()); // Parse JSON bodies
 app.use(express.urlencoded({ extended: true })); // Parse URL-encoded bodies
+
+// Serve static files from frontend build with proper MIME types
+const frontendBuildPath = path.join(__dirname, '../frontend/dist');
+app.use(express.static(frontendBuildPath, {
+  setHeaders: (res, filePath) => {
+    if (filePath.endsWith('.js')) {
+      res.setHeader('Content-Type', 'application/javascript; charset=UTF-8');
+    } else if (filePath.endsWith('.jsx')) {
+      res.setHeader('Content-Type', 'application/javascript; charset=UTF-8');
+    } else if (filePath.endsWith('.mjs')) {
+      res.setHeader('Content-Type', 'application/javascript; charset=UTF-8');
+    } else if (filePath.endsWith('.css')) {
+      res.setHeader('Content-Type', 'text/css; charset=UTF-8');
+    } else if (filePath.endsWith('.json')) {
+      res.setHeader('Content-Type', 'application/json; charset=UTF-8');
+    }
+  }
+}));
 
 // Request logging
 app.use((req, res, next) => {
@@ -46,20 +67,33 @@ app.use('/api/appointments', appointmentRoutes);
 app.use('/api/analytics', analyticsRoutes);
 app.use('/api/alerts', alertRoutes);
 
-// Root endpoint
-app.get('/', (req, res) => {
-  res.json({
-    message: 'Hospital Predictive Maintenance Backend API',
-    version: '2.0.0',
-    dataSource: 'JSON and ML Service',
-    endpoints: {
-      machines: '/api/machines',
-      appointments: '/api/appointments',
-      analytics: '/api/analytics',
-      alerts: '/api/alerts',
-      health: '/health'
-    }
-  });
+// Serve frontend for non-API routes (SPA fallback)
+app.get('*', (req, res, next) => {
+  // Skip API routes
+  if (req.path.startsWith('/api/') || req.path === '/health') {
+    return next();
+  }
+  
+  const indexPath = path.join(__dirname, '../frontend/dist/index.html');
+  
+  // If frontend build doesn't exist, show API info
+  if (!require('fs').existsSync(indexPath)) {
+    return res.json({
+      message: 'Hospital Predictive Maintenance Backend API',
+      version: '2.0.0',
+      dataSource: 'JSON and ML Service',
+      note: 'Frontend not built. Run "npm run build" in frontend directory.',
+      endpoints: {
+        machines: '/api/machines',
+        appointments: '/api/appointments',
+        analytics: '/api/analytics',
+        alerts: '/api/alerts',
+        health: '/health'
+      }
+    });
+  }
+  
+  res.sendFile(indexPath);
 });
 
 // Error handling middleware (must be last)
