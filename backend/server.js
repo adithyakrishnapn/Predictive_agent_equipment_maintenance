@@ -1,4 +1,5 @@
 const path = require('path');
+const fs = require('fs');
 require('dotenv').config({ path: path.join(__dirname, '.env') });
 const express = require('express');
 const cors = require('cors');
@@ -73,11 +74,17 @@ app.get('*', (req, res, next) => {
   if (req.path.startsWith('/api/') || req.path === '/health') {
     return next();
   }
+
+  // If the request looks like a direct asset/file request, do not return index.html
+  // This prevents browsers from receiving the wrong MIME type for module scripts.
+  if (path.extname(req.path)) {
+    return res.status(404).json({ error: 'Static asset not found' });
+  }
   
   const indexPath = path.join(__dirname, '../frontend/dist/index.html');
   
   // If frontend build doesn't exist, show API info
-  if (!require('fs').existsSync(indexPath)) {
+  if (!fs.existsSync(indexPath)) {
     return res.json({
       message: 'Hospital Predictive Maintenance Backend API',
       version: '2.0.0',
