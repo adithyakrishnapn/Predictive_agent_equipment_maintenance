@@ -27,6 +27,19 @@ app.use(cors()); // Enable CORS
 app.use(express.json()); // Parse JSON bodies
 app.use(express.urlencoded({ extended: true })); // Parse URL-encoded bodies
 
+// Enforce MIME types for module/static assets before they are served.
+app.use((req, res, next) => {
+  const ext = path.extname(req.path).toLowerCase();
+  if (ext === '.js' || ext === '.mjs' || ext === '.jsx') {
+    res.setHeader('Content-Type', 'application/javascript; charset=UTF-8');
+  } else if (ext === '.css') {
+    res.setHeader('Content-Type', 'text/css; charset=UTF-8');
+  } else if (ext === '.json') {
+    res.setHeader('Content-Type', 'application/json; charset=UTF-8');
+  }
+  next();
+});
+
 // Serve static files from frontend build with proper MIME types
 const frontendBuildPath = path.join(__dirname, '../frontend/dist');
 app.use(express.static(frontendBuildPath, {
