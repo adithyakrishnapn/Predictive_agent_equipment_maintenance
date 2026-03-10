@@ -1,0 +1,154 @@
+[
+  {
+    "machine_id": "MRI_001",
+    "type": "MRI",
+    "manufacturer": "Siemens",
+    "model": "Magnetom Skyra 3T",
+    "location": {
+      "department": "Radiology",
+      "room": "R-101",
+      "floor": "1"
+    },
+    "installation_date": "2020-05-15",
+    "last_maintenance_date": "2025-12-01",
+    "status": "operational",
+    "current_health_score": 85,
+    "current_risk_level": "Monitor",
+    "maintenance_history": [
+      {
+        "date": "2026-02-12",
+        "type": "Preventive Maintenance",
+        "vendor": "Siemens Healthineers",
+        "cost": 45000,
+        "description": "Routine helium refill and coil calibration",
+        "technician": "Robert Chen"
+      },
+      {
+        "date": "2026-02-22",
+        "type": "Inspection",
+        "vendor": "Siemens Healthineers",
+        "cost": 15000,
+        "description": "Quarterly safety inspection",
+        "technician": "Robert Chen"
+      }
+    ]
+  },
+  {
+    "machine_id": "MRI_002",
+    "type": "MRI",
+    "manufacturer": "GE Healthcare",
+    "model": "Signa Premier",
+    "location": {
+      "department": "Radiology",
+      "room": "R-102",
+      "floor": "1"
+    },
+    "installation_date": "2019-03-20",
+    "last_maintenance_date": "2025-11-15",
+    "status": "operational",
+    "current_health_score": 75,
+    "current_risk_level": "Maintenance",
+    "maintenance_history": [
+      {
+        "date": "2026-02-09",
+        "type": "Repair",
+        "vendor": "GE Healthcare Services",
+        "cost": 85000,
+        "description": "RF coil replacement due to intermittent failures",
+        "technician": "Michael Torres"
+      },
+      {
+        "date": "2026-02-17",
+        "type": "Repair",
+        "vendor": "GE Healthcare Services",
+        "cost": 120000,
+        "description": "Gradient system repair - cooling fan failure",
+        "technician": "Michael Torres"
+      },
+      {
+        "date": "2026-02-27",
+        "type": "Preventive Maintenance",
+        "vendor": "GE Healthcare Services",
+        "cost": 50000,
+        "description": "System recalibration after repairs",
+        "technician": "Sarah Johnson"
+      }
+    ]
+  },
+  {
+    "machine_id": "CT_001",
+    "type": "CT",
+    "manufacturer": "Philips",
+    "model": "Brilliance iCT",
+    "location": {
+      "department": "Emergency",
+      "room": "E-201",
+      "floor": "2"
+    },
+    "installation_date": "2021-08-10",
+    "last_maintenance_date": "2026-01-05",
+    "status": "operational",
+    "current_health_score": 95,
+    "current_risk_level": "Normal",
+    "maintenance_history": [
+      {
+        "date": "2026-02-15",
+        "type": "Preventive Maintenance",
+        "vendor": "Philips Medical Systems",
+        "cost": 40000,
+        "description": "Tube warm-up and detector calibration",
+        "technician": "David Lee"
+      }
+    ]
+  },
+  {
+    "machine_id": "CT_002",
+    "type": "CT",
+    "manufacturer": "Siemens",
+    "model": "Somatom Definition",
+    "location": {
+      "department": "Radiology",
+      "room": "R-103",
+      "floor": "1"
+    },
+    "installation_date": "2018-11-30",
+    "last_maintenance_date": "2025-10-20",
+    "status": "maintenance",
+    "current_health_score": 45,
+    "current_risk_level": "Critical",
+    "maintenance_history": [
+      {
+        "date": "2026-02-10",
+        "type": "Repair",
+        "vendor": "Siemens Healthineers",
+        "cost": 150000,
+        "description": "Gantry bearing replacement - critical failure",
+        "technician": "Robert Chen"
+      },
+      {
+        "date": "2026-02-19",
+        "type": "Repair",
+        "vendor": "Siemens Healthineers",
+        "cost": 95000,
+        "description": "High voltage generator repair",
+        "technician": "Robert Chen"
+      },
+      {
+        "date": "2026-02-25",
+        "type": "Repair",
+        "vendor": "Siemens Healthineers",
+        "cost": 75000,
+        "description": "Detector array module replacement",
+        "technician": "Lisa Park"
+      },
+      {
+        "date": "2026-03-04",
+        "type": "Preventive Maintenance",
+        "vendor": "Siemens Healthineers",
+        "cost": 60000,
+        "description": "Complete system diagnostic and calibration",
+        "technician": "Robert Chen"
+      }
+    ]
+  }
+]

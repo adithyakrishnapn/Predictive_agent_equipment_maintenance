@@ -1,0 +1,99 @@
+{
+  "appointments": [
+    {
+      "appointment_id": "APT000001",
+      "machine_id": "MRI_001",
+      "patient": {
+        "name": "John Doe",
+        "id": "P12345",
+        "email": "john.doe@email.com",
+        "contact": "+1-555-0101"
+      },
+      "scheduled_time": "2026-03-10T04:30:35.902Z",
+      "appointment_date": "2026-03-10T04:30:35.902Z",
+      "createdAt": "2026-03-09T10:00:00.000Z",
+      "duration": 45,
+      "scan_type": "Brain MRI",
+      "priority": "routine",
+      "status": "scheduled",
+      "referring_doctor": "Dr. Smith",
+      "department": "Neurology"
+    },
+    {
+      "appointment_id": "APT000002",
+      "machine_id": "CT_001",
+      "patient": {
+        "name": "Jane Smith",
+        "id": "P12346",
+        "email": "jane.smith@email.com",
+        "contact": "+1-555-0102"
+      },
+      "scheduled_time": "2026-03-10T05:30:35.903Z",
+      "appointment_date": "2026-03-10T05:30:35.903Z",
+      "createdAt": "2026-03-09T12:00:00.000Z",
+      "duration": 30,
+      "scan_type": "Chest CT",
+      "priority": "urgent",
+      "status": "scheduled",
+      "referring_doctor": "Dr. Johnson",
+      "department": "Emergency"
+    },
+    {
+      "appointment_id": "APT000003",
+      "machine_id": "MRI_001",
+      "patient": {
+        "name": "Bob Wilson",
+        "id": "P12347",
+        "email": "bob.wilson@email.com",
+        "contact": "+1-555-0103"
+      },
+      "scheduled_time": "2026-03-11T08:30:35.903Z",
+      "appointment_date": "2026-03-11T08:30:35.903Z",
+      "createdAt": "2026-03-08T15:00:00.000Z",
+      "duration": 60,
+      "scan_type": "Full Body MRI",
+      "priority": "routine",
+      "status": "scheduled",
+      "referring_doctor": "Dr. Lee",
+      "department": "Oncology"
+    },
+    {
+      "appointment_id": "APT000004",
+      "machine_id": "MRI_002",
+      "patient": {
+        "name": "Alice Johnson",
+        "id": "P12348",
+        "email": "alice.j@email.com",
+        "contact": "+1-555-0104"
+      },
+      "scheduled_time": "2026-02-18T09:00:00.000Z",
+      "appointment_date": "2026-02-18T09:00:00.000Z",
+      "createdAt": "2026-02-17T10:00:00.000Z",
+      "duration": 45,
+      "scan_type": "Spine MRI",
+      "priority": "routine",
+      "status": "completed",
+      "referring_doctor": "Dr. Anderson",
+      "department": "Orthopedics"
+    },
+    {
+      "appointment_id": "APT000005",
+      "machine_id": "CT_002",
+      "patient": {
+        "name": "David Martinez",
+        "id": "P12349",
+        "email": "dmartinez@email.com",
+        "contact": "+1-555-0105"
+      },
+      "scheduled_time": "2026-02-20T14:00:00.000Z",
+      "appointment_date": "2026-02-20T14:00:00.000Z",
+      "createdAt": "2026-02-19T08:00:00.000Z",
+      "duration": 30,
+      "scan_type": "Brain CT",
+      "priority": "urgent",
+      "status": "completed",
+      "referring_doctor": "Dr. Brown",
+      "department": "Emergency"
+    }
+  ]
+}

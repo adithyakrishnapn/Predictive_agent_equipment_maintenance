@@ -1,0 +1,4322 @@
+[
+  {
+    "date": "2025-01-01",
+    "machine_id": "MRI_001",
+    "temperature": 70.58,
+    "helium_pressure": 89.89,
+    "vibration": 0.279,
+    "error_count": 1,
+    "scan_volume": 37
+  },
+  {
+    "date": "2025-01-01",
+    "machine_id": "MRI_002",
+    "temperature": 69.26,
+    "helium_pressure": 89.02,
+    "vibration": 0.196,
+    "error_count": 6,
+    "scan_volume": 49
+  },
+  {
+    "date": "2025-01-01",
+    "machine_id": "CT_001",
+    "temperature": 72.06,
+    "helium_pressure": 94.0,
+    "vibration": 0.182,
+    "error_count": 6,
+    "scan_volume": 31
+  },
+  {
+    "date": "2025-01-01",
+    "machine_id": "CT_002",
+    "temperature": 62.97,
+    "helium_pressure": 89.76,
+    "vibration": 0.862,
+    "error_count": 7,
+    "scan_volume": 55
+  },
+  {
+    "date": "2025-01-02",
+    "machine_id": "MRI_001",
+    "temperature": 71.42,
+    "helium_pressure": 85.97,
+    "vibration": 0.765,
+    "error_count": 12,
+    "scan_volume": 45
+  },
+  {
+    "date": "2025-01-02",
+    "machine_id": "MRI_002",
+    "temperature": 68.74,
+    "helium_pressure": 85.37,
+    "vibration": 0.651,
+    "error_count": 8,
+    "scan_volume": 43
+  },
+  {
+    "date": "2025-01-02",
+    "machine_id": "CT_001",
+    "temperature": 71.66,
+    "helium_pressure": 96.59,
+    "vibration": 0.897,
+    "error_count": 7,
+    "scan_volume": 25
+  },
+  {
+    "date": "2025-01-02",
+    "machine_id": "CT_002",
+    "temperature": 61.34,
+    "helium_pressure": 95.16,
+    "vibration": 0.311,
+    "error_count": 6,
+    "scan_volume": 33
+  },
+  {
+    "date": "2025-01-03",
+    "machine_id": "MRI_001",
+    "temperature": 60.53,
+    "helium_pressure": 89.48,
+    "vibration": 0.512,
+    "error_count": 8,
+    "scan_volume": 35
+  },
+  {
+    "date": "2025-01-03",
+    "machine_id": "MRI_002",
+    "temperature": 62.11,
+    "helium_pressure": 88.57,
+    "vibration": 0.773,
+    "error_count": 10,
+    "scan_volume": 26
+  },
+  {
+    "date": "2025-01-03",
+    "machine_id": "CT_001",
+    "temperature": 72.62,
+    "helium_pressure": 92.57,
+    "vibration": 0.308,
+    "error_count": 8,
+    "scan_volume": 30
+  },
+  {
+    "date": "2025-01-03",
+    "machine_id": "CT_002",
+    "temperature": 64.7,
+    "helium_pressure": 92.95,
+    "vibration": 0.701,
+    "error_count": 9,
+    "scan_volume": 57
+  },
+  {
+    "date": "2025-01-04",
+    "machine_id": "MRI_001",
+    "temperature": 71.91,
+    "helium_pressure": 96.16,
+    "vibration": 0.724,
+    "error_count": 7,
+    "scan_volume": 34
+  },
+  {
+    "date": "2025-01-04",
+    "machine_id": "MRI_002",
+    "temperature": 77.95,
+    "helium_pressure": 83.34,
+    "vibration": 0.456,
+    "error_count": 0,
+    "scan_volume": 59
+  },
+  {
+    "date": "2025-01-04",
+    "machine_id": "CT_001",
+    "temperature": 70.07,
+    "helium_pressure": 91.4,
+    "vibration": 0.332,
+    "error_count": 10,
+    "scan_volume": 57
+  },
+  {
+    "date": "2025-01-04",
+    "machine_id": "CT_002",
+    "temperature": 60.61,
+    "helium_pressure": 95.13,
+    "vibration": 0.156,
+    "error_count": 8,
+    "scan_volume": 50
+  },
+  {
+    "date": "2025-01-05",
+    "machine_id": "MRI_001",
+    "temperature": 77.88,
+    "helium_pressure": 86.87,
+    "vibration": 0.211,
+    "error_count": 12,
+    "scan_volume": 32
+  },
+  {
+    "date": "2025-01-05",
+    "machine_id": "MRI_002",
+    "temperature": 69.03,
+    "helium_pressure": 96.08,
+    "vibration": 0.385,
+    "error_count": 8,
+    "scan_volume": 39
+  },
+  {
+    "date": "2025-01-05",
+    "machine_id": "CT_001",
+    "temperature": 71.42,
+    "helium_pressure": 89.05,
+    "vibration": 0.505,
+    "error_count": 7,
+    "scan_volume": 25
+  },
+  {
+    "date": "2025-01-05",
+    "machine_id": "CT_002",
+    "temperature": 70.78,
+    "helium_pressure": 82.99,
+    "vibration": 0.121,
+    "error_count": 8,
+    "scan_volume": 27
+  },
+  {
+    "date": "2025-01-06",
+    "machine_id": "MRI_001",
+    "temperature": 68.38,
+    "helium_pressure": 87.12,
+    "vibration": 0.633,
+    "error_count": 2,
+    "scan_volume": 37
+  },
+  {
+    "date": "2025-01-06",
+    "machine_id": "MRI_002",
+    "temperature": 67.6,
+    "helium_pressure": 83.36,
+    "vibration": 0.577,
+    "error_count": 1,
+    "scan_volume": 30
+  },
+  {
+    "date": "2025-01-06",
+    "machine_id": "CT_001",
+    "temperature": 78.68,
+    "helium_pressure": 90.17,
+    "vibration": 0.5,
+    "error_count": 9,
+    "scan_volume": 42
+  },
+  {
+    "date": "2025-01-06",
+    "machine_id": "CT_002",
+    "temperature": 75.83,
+    "helium_pressure": 91.6,
+    "vibration": 0.439,
+    "error_count": 8,
+    "scan_volume": 34
+  },
+  {
+    "date": "2025-01-07",
+    "machine_id": "MRI_001",
+    "temperature": 69.27,
+    "helium_pressure": 94.03,
+    "vibration": 0.563,
+    "error_count": 10,
+    "scan_volume": 55
+  },
+  {
+    "date": "2025-01-07",
+    "machine_id": "MRI_002",
+    "temperature": 73.29,
+    "helium_pressure": 82.8,
+    "vibration": 0.135,
+    "error_count": 5,
+    "scan_volume": 39
+  },
+  {
+    "date": "2025-01-07",
+    "machine_id": "CT_001",
+    "temperature": 74.27,
+    "helium_pressure": 86.14,
+    "vibration": 0.732,
+    "error_count": 12,
+    "scan_volume": 52
+  },
+  {
+    "date": "2025-01-07",
+    "machine_id": "CT_002",
+    "temperature": 62.25,
+    "helium_pressure": 88.83,
+    "vibration": 0.495,
+    "error_count": 8,
+    "scan_volume": 40
+  },
+  {
+    "date": "2025-01-08",
+    "machine_id": "MRI_001",
+    "temperature": 63.54,
+    "helium_pressure": 86.55,
+    "vibration": 0.815,
+    "error_count": 11,
+    "scan_volume": 60
+  },
+  {
+    "date": "2025-01-08",
+    "machine_id": "MRI_002",
+    "temperature": 71.16,
+    "helium_pressure": 87.33,
+    "vibration": 0.402,
+    "error_count": 1,
+    "scan_volume": 54
+  },
+  {
+    "date": "2025-01-08",
+    "machine_id": "CT_001",
+    "temperature": 71.62,
+    "helium_pressure": 95.74,
+    "vibration": 0.627,
+    "error_count": 10,
+    "scan_volume": 50
+  },
+  {
+    "date": "2025-01-08",
+    "machine_id": "CT_002",
+    "temperature": 63.63,
+    "helium_pressure": 92.24,
+    "vibration": 0.808,
+    "error_count": 6,
+    "scan_volume": 43
+  },
+  {
+    "date": "2025-01-09",
+    "machine_id": "MRI_001",
+    "temperature": 76.7,
+    "helium_pressure": 88.02,
+    "vibration": 0.537,
+    "error_count": 11,
+    "scan_volume": 41
+  },
+  {
+    "date": "2025-01-09",
+    "machine_id": "MRI_002",
+    "temperature": 78.71,
+    "helium_pressure": 88.87,
+    "vibration": 0.313,
+    "error_count": 8,
+    "scan_volume": 44
+  },
+  {
+    "date": "2025-01-09",
+    "machine_id": "CT_001",
+    "temperature": 63.03,
+    "helium_pressure": 89.1,
+    "vibration": 0.222,
+    "error_count": 5,
+    "scan_volume": 31
+  },
+  {
+    "date": "2025-01-09",
+    "machine_id": "CT_002",
+    "temperature": 67.72,
+    "helium_pressure": 84.56,
+    "vibration": 0.847,
+    "error_count": 9,
+    "scan_volume": 40
+  },
+  {
+    "date": "2025-01-10",
+    "machine_id": "MRI_001",
+    "temperature": 76.51,
+    "helium_pressure": 88.51,
+    "vibration": 0.534,
+    "error_count": 2,
+    "scan_volume": 25
+  },
+  {
+    "date": "2025-01-10",
+    "machine_id": "MRI_002",
+    "temperature": 70.05,
+    "helium_pressure": 91.18,
+    "vibration": 0.731,
+    "error_count": 3,
+    "scan_volume": 42
+  },
+  {
+    "date": "2025-01-10",
+    "machine_id": "CT_001",
+    "temperature": 70.69,
+    "helium_pressure": 90.52,
+    "vibration": 0.501,
+    "error_count": 9,
+    "scan_volume": 27
+  },
+  {
+    "date": "2025-01-10",
+    "machine_id": "CT_002",
+    "temperature": 77.61,
+    "helium_pressure": 84.2,
+    "vibration": 0.307,
+    "error_count": 7,
+    "scan_volume": 34
+  },
+  {
+    "date": "2025-01-11",
+    "machine_id": "MRI_001",
+    "temperature": 79.81,
+    "helium_pressure": 94.05,
+    "vibration": 0.456,
+    "error_count": 9,
+    "scan_volume": 29
+  },
+  {
+    "date": "2025-01-11",
+    "machine_id": "MRI_002",
+    "temperature": 68.5,
+    "helium_pressure": 91.97,
+    "vibration": 0.151,
+    "error_count": 4,
+    "scan_volume": 29
+  },
+  {
+    "date": "2025-01-11",
+    "machine_id": "CT_001",
+    "temperature": 64.29,
+    "helium_pressure": 95.28,
+    "vibration": 0.569,
+    "error_count": 12,
+    "scan_volume": 40
+  },
+  {
+    "date": "2025-01-11",
+    "machine_id": "CT_002",
+    "temperature": 67.15,
+    "helium_pressure": 94.09,
+    "vibration": 0.58,
+    "error_count": 2,
+    "scan_volume": 38
+  },
+  {
+    "date": "2025-01-12",
+    "machine_id": "MRI_001",
+    "temperature": 74.29,
+    "helium_pressure": 83.73,
+    "vibration": 0.271,
+    "error_count": 11,
+    "scan_volume": 51
+  },
+  {
+    "date": "2025-01-12",
+    "machine_id": "MRI_002",
+    "temperature": 77.89,
+    "helium_pressure": 87.47,
+    "vibration": 0.885,
+    "error_count": 0,
+    "scan_volume": 41
+  },
+  {
+    "date": "2025-01-12",
+    "machine_id": "CT_001",
+    "temperature": 66.42,
+    "helium_pressure": 90.18,
+    "vibration": 0.42,
+    "error_count": 12,
+    "scan_volume": 26
+  },
+  {
+    "date": "2025-01-12",
+    "machine_id": "CT_002",
+    "temperature": 78.2,
+    "helium_pressure": 87.77,
+    "vibration": 0.865,
+    "error_count": 12,
+    "scan_volume": 44
+  },
+  {
+    "date": "2025-01-13",
+    "machine_id": "MRI_001",
+    "temperature": 69.91,
+    "helium_pressure": 86.19,
+    "vibration": 0.593,
+    "error_count": 6,
+    "scan_volume": 45
+  },
+  {
+    "date": "2025-01-13",
+    "machine_id": "MRI_002",
+    "temperature": 73.01,
+    "helium_pressure": 95.97,
+    "vibration": 0.658,
+    "error_count": 4,
+    "scan_volume": 26
+  },
+  {
+    "date": "2025-01-13",
+    "machine_id": "CT_001",
+    "temperature": 75.75,
+    "helium_pressure": 88.66,
+    "vibration": 0.776,
+    "error_count": 7,
+    "scan_volume": 55
+  },
+  {
+    "date": "2025-01-13",
+    "machine_id": "CT_002",
+    "temperature": 77.93,
+    "helium_pressure": 96.9,
+    "vibration": 0.152,
+    "error_count": 8,
+    "scan_volume": 33
+  },
+  {
+    "date": "2025-01-14",
+    "machine_id": "MRI_001",
+    "temperature": 74.0,
+    "helium_pressure": 91.51,
+    "vibration": 0.559,
+    "error_count": 8,
+    "scan_volume": 27
+  },
+  {
+    "date": "2025-01-14",
+    "machine_id": "MRI_002",
+    "temperature": 70.93,
+    "helium_pressure": 97.3,
+    "vibration": 0.684,
+    "error_count": 6,
+    "scan_volume": 54
+  },
+  {
+    "date": "2025-01-14",
+    "machine_id": "CT_001",
+    "temperature": 76.67,
+    "helium_pressure": 84.33,
+    "vibration": 0.317,
+    "error_count": 7,
+    "scan_volume": 42
+  },
+  {
+    "date": "2025-01-14",
+    "machine_id": "CT_002",
+    "temperature": 68.27,
+    "helium_pressure": 95.56,
+    "vibration": 0.184,
+    "error_count": 3,
+    "scan_volume": 45
+  },
+  {
+    "date": "2025-01-15",
+    "machine_id": "MRI_001",
+    "temperature": 72.45,
+    "helium_pressure": 96.71,
+    "vibration": 0.601,
+    "error_count": 4,
+    "scan_volume": 59
+  },
+  {
+    "date": "2025-01-15",
+    "machine_id": "MRI_002",
+    "temperature": 68.44,
+    "helium_pressure": 92.61,
+    "vibration": 0.594,
+    "error_count": 3,
+    "scan_volume": 50
+  },
+  {
+    "date": "2025-01-15",
+    "machine_id": "CT_001",
+    "temperature": 73.93,
+    "helium_pressure": 90.79,
+    "vibration": 0.349,
+    "error_count": 8,
+    "scan_volume": 49
+  },
+  {
+    "date": "2025-01-15",
+    "machine_id": "CT_002",
+    "temperature": 71.34,
+    "helium_pressure": 93.02,
+    "vibration": 0.793,
+    "error_count": 5,
+    "scan_volume": 46
+  },
+  {
+    "date": "2025-01-16",
+    "machine_id": "MRI_001",
+    "temperature": 71.77,
+    "helium_pressure": 97.66,
+    "vibration": 0.743,
+    "error_count": 0,
+    "scan_volume": 32
+  },
+  {
+    "date": "2025-01-16",
+    "machine_id": "MRI_002",
+    "temperature": 62.48,
+    "helium_pressure": 84.16,
+    "vibration": 0.579,
+    "error_count": 2,
+    "scan_volume": 28
+  },
+  {
+    "date": "2025-01-16",
+    "machine_id": "CT_001",
+    "temperature": 76.9,
+    "helium_pressure": 94.5,
+    "vibration": 0.896,
+    "error_count": 3,
+    "scan_volume": 49
+  },
+  {
+    "date": "2025-01-16",
+    "machine_id": "CT_002",
+    "temperature": 77.78,
+    "helium_pressure": 82.71,
+    "vibration": 0.191,
+    "error_count": 7,
+    "scan_volume": 30
+  },
+  {
+    "date": "2025-01-17",
+    "machine_id": "MRI_001",
+    "temperature": 68.45,
+    "helium_pressure": 93.65,
+    "vibration": 0.282,
+    "error_count": 9,
+    "scan_volume": 59
+  },
+  {
+    "date": "2025-01-17",
+    "machine_id": "MRI_002",
+    "temperature": 75.05,
+    "helium_pressure": 90.88,
+    "vibration": 0.416,
+    "error_count": 6,
+    "scan_volume": 45
+  },
+  {
+    "date": "2025-01-17",
+    "machine_id": "CT_001",
+    "temperature": 64.97,
+    "helium_pressure": 97.61,
+    "vibration": 0.618,
+    "error_count": 1,
+    "scan_volume": 57
+  },
+  {
+    "date": "2025-01-17",
+    "machine_id": "CT_002",
+    "temperature": 71.59,
+    "helium_pressure": 87.24,
+    "vibration": 0.58,
+    "error_count": 6,
+    "scan_volume": 56
+  },
+  {
+    "date": "2025-01-18",
+    "machine_id": "MRI_001",
+    "temperature": 60.15,
+    "helium_pressure": 82.4,
+    "vibration": 0.625,
+    "error_count": 9,
+    "scan_volume": 44
+  },
+  {
+    "date": "2025-01-18",
+    "machine_id": "MRI_002",
+    "temperature": 76.14,
+    "helium_pressure": 86.78,
+    "vibration": 0.877,
+    "error_count": 4,
+    "scan_volume": 36
+  },
+  {
+    "date": "2025-01-18",
+    "machine_id": "CT_001",
+    "temperature": 60.94,
+    "helium_pressure": 96.73,
+    "vibration": 0.899,
+    "error_count": 10,
+    "scan_volume": 42
+  },
+  {
+    "date": "2025-01-18",
+    "machine_id": "CT_002",
+    "temperature": 75.71,
+    "helium_pressure": 93.85,
+    "vibration": 0.545,
+    "error_count": 6,
+    "scan_volume": 52
+  },
+  {
+    "date": "2025-01-19",
+    "machine_id": "MRI_001",
+    "temperature": 69.95,
+    "helium_pressure": 82.8,
+    "vibration": 0.731,
+    "error_count": 4,
+    "scan_volume": 35
+  },
+  {
+    "date": "2025-01-19",
+    "machine_id": "MRI_002",
+    "temperature": 60.29,
+    "helium_pressure": 94.65,
+    "vibration": 0.349,
+    "error_count": 6,
+    "scan_volume": 48
+  },
+  {
+    "date": "2025-01-19",
+    "machine_id": "CT_001",
+    "temperature": 69.8,
+    "helium_pressure": 89.09,
+    "vibration": 0.53,
+    "error_count": 0,
+    "scan_volume": 53
+  },
+  {
+    "date": "2025-01-19",
+    "machine_id": "CT_002",
+    "temperature": 75.65,
+    "helium_pressure": 86.94,
+    "vibration": 0.355,
+    "error_count": 3,
+    "scan_volume": 37
+  },
+  {
+    "date": "2025-01-20",
+    "machine_id": "MRI_001",
+    "temperature": 75.63,
+    "helium_pressure": 94.88,
+    "vibration": 0.123,
+    "error_count": 2,
+    "scan_volume": 40
+  },
+  {
+    "date": "2025-01-20",
+    "machine_id": "MRI_002",
+    "temperature": 77.14,
+    "helium_pressure": 87.91,
+    "vibration": 0.739,
+    "error_count": 6,
+    "scan_volume": 33
+  },
+  {
+    "date": "2025-01-20",
+    "machine_id": "CT_001",
+    "temperature": 77.09,
+    "helium_pressure": 84.95,
+    "vibration": 0.435,
+    "error_count": 11,
+    "scan_volume": 43
+  },
+  {
+    "date": "2025-01-20",
+    "machine_id": "CT_002",
+    "temperature": 61.08,
+    "helium_pressure": 88.34,
+    "vibration": 0.367,
+    "error_count": 9,
+    "scan_volume": 47
+  },
+  {
+    "date": "2025-01-21",
+    "machine_id": "MRI_001",
+    "temperature": 64.58,
+    "helium_pressure": 82.86,
+    "vibration": 0.656,
+    "error_count": 10,
+    "scan_volume": 52
+  },
+  {
+    "date": "2025-01-21",
+    "machine_id": "MRI_002",
+    "temperature": 63.21,
+    "helium_pressure": 84.99,
+    "vibration": 0.24,
+    "error_count": 4,
+    "scan_volume": 36
+  },
+  {
+    "date": "2025-01-21",
+    "machine_id": "CT_001",
+    "temperature": 79.27,
+    "helium_pressure": 94.77,
+    "vibration": 0.443,
+    "error_count": 7,
+    "scan_volume": 55
+  },
+  {
+    "date": "2025-01-21",
+    "machine_id": "CT_002",
+    "temperature": 66.21,
+    "helium_pressure": 84.15,
+    "vibration": 0.353,
+    "error_count": 1,
+    "scan_volume": 49
+  },
+  {
+    "date": "2025-01-22",
+    "machine_id": "MRI_001",
+    "temperature": 60.55,
+    "helium_pressure": 83.27,
+    "vibration": 0.325,
+    "error_count": 1,
+    "scan_volume": 30
+  },
+  {
+    "date": "2025-01-22",
+    "machine_id": "MRI_002",
+    "temperature": 67.45,
+    "helium_pressure": 97.56,
+    "vibration": 0.503,
+    "error_count": 4,
+    "scan_volume": 59
+  },
+  {
+    "date": "2025-01-22",
+    "machine_id": "CT_001",
+    "temperature": 75.94,
+    "helium_pressure": 92.23,
+    "vibration": 0.895,
+    "error_count": 0,
+    "scan_volume": 59
+  },
+  {
+    "date": "2025-01-22",
+    "machine_id": "CT_002",
+    "temperature": 60.3,
+    "helium_pressure": 89.59,
+    "vibration": 0.513,
+    "error_count": 6,
+    "scan_volume": 55
+  },
+  {
+    "date": "2025-01-23",
+    "machine_id": "MRI_001",
+    "temperature": 74.22,
+    "helium_pressure": 97.87,
+    "vibration": 0.202,
+    "error_count": 1,
+    "scan_volume": 36
+  },
+  {
+    "date": "2025-01-23",
+    "machine_id": "MRI_002",
+    "temperature": 71.56,
+    "helium_pressure": 96.12,
+    "vibration": 0.387,
+    "error_count": 12,
+    "scan_volume": 25
+  },
+  {
+    "date": "2025-01-23",
+    "machine_id": "CT_001",
+    "temperature": 78.62,
+    "helium_pressure": 86.37,
+    "vibration": 0.208,
+    "error_count": 11,
+    "scan_volume": 51
+  },
+  {
+    "date": "2025-01-23",
+    "machine_id": "CT_002",
+    "temperature": 75.85,
+    "helium_pressure": 95.64,
+    "vibration": 0.611,
+    "error_count": 6,
+    "scan_volume": 29
+  },
+  {
+    "date": "2025-01-24",
+    "machine_id": "MRI_001",
+    "temperature": 62.95,
+    "helium_pressure": 83.77,
+    "vibration": 0.232,
+    "error_count": 3,
+    "scan_volume": 58
+  },
+  {
+    "date": "2025-01-24",
+    "machine_id": "MRI_002",
+    "temperature": 65.02,
+    "helium_pressure": 93.77,
+    "vibration": 0.808,
+    "error_count": 5,
+    "scan_volume": 39
+  },
+  {
+    "date": "2025-01-24",
+    "machine_id": "CT_001",
+    "temperature": 68.6,
+    "helium_pressure": 93.14,
+    "vibration": 0.684,
+    "error_count": 12,
+    "scan_volume": 59
+  },
+  {
+    "date": "2025-01-24",
+    "machine_id": "CT_002",
+    "temperature": 60.96,
+    "helium_pressure": 90.87,
+    "vibration": 0.879,
+    "error_count": 10,
+    "scan_volume": 35
+  },
+  {
+    "date": "2025-01-25",
+    "machine_id": "MRI_001",
+    "temperature": 67.37,
+    "helium_pressure": 86.24,
+    "vibration": 0.511,
+    "error_count": 4,
+    "scan_volume": 33
+  },
+  {
+    "date": "2025-01-25",
+    "machine_id": "MRI_002",
+    "temperature": 62.47,
+    "helium_pressure": 90.92,
+    "vibration": 0.701,
+    "error_count": 8,
+    "scan_volume": 45
+  },
+  {
+    "date": "2025-01-25",
+    "machine_id": "CT_001",
+    "temperature": 77.57,
+    "helium_pressure": 87.79,
+    "vibration": 0.702,
+    "error_count": 4,
+    "scan_volume": 28
+  },
+  {
+    "date": "2025-01-25",
+    "machine_id": "CT_002",
+    "temperature": 60.63,
+    "helium_pressure": 97.11,
+    "vibration": 0.304,
+    "error_count": 10,
+    "scan_volume": 48
+  },
+  {
+    "date": "2025-01-26",
+    "machine_id": "MRI_001",
+    "temperature": 65.7,
+    "helium_pressure": 89.48,
+    "vibration": 0.692,
+    "error_count": 3,
+    "scan_volume": 29
+  },
+  {
+    "date": "2025-01-26",
+    "machine_id": "MRI_002",
+    "temperature": 62.23,
+    "helium_pressure": 97.11,
+    "vibration": 0.223,
+    "error_count": 11,
+    "scan_volume": 53
+  },
+  {
+    "date": "2025-01-26",
+    "machine_id": "CT_001",
+    "temperature": 65.71,
+    "helium_pressure": 90.6,
+    "vibration": 0.712,
+    "error_count": 11,
+    "scan_volume": 56
+  },
+  {
+    "date": "2025-01-26",
+    "machine_id": "CT_002",
+    "temperature": 73.64,
+    "helium_pressure": 91.93,
+    "vibration": 0.752,
+    "error_count": 1,
+    "scan_volume": 53
+  },
+  {
+    "date": "2025-01-27",
+    "machine_id": "MRI_001",
+    "temperature": 68.77,
+    "helium_pressure": 94.38,
+    "vibration": 0.711,
+    "error_count": 3,
+    "scan_volume": 43
+  },
+  {
+    "date": "2025-01-27",
+    "machine_id": "MRI_002",
+    "temperature": 72.9,
+    "helium_pressure": 92.86,
+    "vibration": 0.233,
+    "error_count": 2,
+    "scan_volume": 26
+  },
+  {
+    "date": "2025-01-27",
+    "machine_id": "CT_001",
+    "temperature": 63.83,
+    "helium_pressure": 95.32,
+    "vibration": 0.531,
+    "error_count": 10,
+    "scan_volume": 35
+  },
+  {
+    "date": "2025-01-27",
+    "machine_id": "CT_002",
+    "temperature": 76.39,
+    "helium_pressure": 96.36,
+    "vibration": 0.383,
+    "error_count": 0,
+    "scan_volume": 59
+  },
+  {
+    "date": "2025-01-28",
+    "machine_id": "MRI_001",
+    "temperature": 61.22,
+    "helium_pressure": 95.55,
+    "vibration": 0.585,
+    "error_count": 6,
+    "scan_volume": 40
+  },
+  {
+    "date": "2025-01-28",
+    "machine_id": "MRI_002",
+    "temperature": 76.53,
+    "helium_pressure": 86.08,
+    "vibration": 0.672,
+    "error_count": 3,
+    "scan_volume": 27
+  },
+  {
+    "date": "2025-01-28",
+    "machine_id": "CT_001",
+    "temperature": 67.73,
+    "helium_pressure": 97.91,
+    "vibration": 0.883,
+    "error_count": 5,
+    "scan_volume": 59
+  },
+  {
+    "date": "2025-01-28",
+    "machine_id": "CT_002",
+    "temperature": 70.06,
+    "helium_pressure": 84.32,
+    "vibration": 0.599,
+    "error_count": 3,
+    "scan_volume": 46
+  },
+  {
+    "date": "2025-01-29",
+    "machine_id": "MRI_001",
+    "temperature": 76.96,
+    "helium_pressure": 96.1,
+    "vibration": 0.109,
+    "error_count": 11,
+    "scan_volume": 31
+  },
+  {
+    "date": "2025-01-29",
+    "machine_id": "MRI_002",
+    "temperature": 70.29,
+    "helium_pressure": 93.44,
+    "vibration": 0.417,
+    "error_count": 7,
+    "scan_volume": 57
+  },
+  {
+    "date": "2025-01-29",
+    "machine_id": "CT_001",
+    "temperature": 65.73,
+    "helium_pressure": 96.48,
+    "vibration": 0.774,
+    "error_count": 5,
+    "scan_volume": 36
+  },
+  {
+    "date": "2025-01-29",
+    "machine_id": "CT_002",
+    "temperature": 65.58,
+    "helium_pressure": 86.07,
+    "vibration": 0.636,
+    "error_count": 5,
+    "scan_volume": 41
+  },
+  {
+    "date": "2025-01-30",
+    "machine_id": "MRI_001",
+    "temperature": 65.24,
+    "helium_pressure": 82.86,
+    "vibration": 0.525,
+    "error_count": 8,
+    "scan_volume": 48
+  },
+  {
+    "date": "2025-01-30",
+    "machine_id": "MRI_002",
+    "temperature": 73.77,
+    "helium_pressure": 89.6,
+    "vibration": 0.596,
+    "error_count": 7,
+    "scan_volume": 60
+  },
+  {
+    "date": "2025-01-30",
+    "machine_id": "CT_001",
+    "temperature": 62.14,
+    "helium_pressure": 92.27,
+    "vibration": 0.621,
+    "error_count": 12,
+    "scan_volume": 45
+  },
+  {
+    "date": "2025-01-30",
+    "machine_id": "CT_002",
+    "temperature": 64.82,
+    "helium_pressure": 91.53,
+    "vibration": 0.218,
+    "error_count": 7,
+    "scan_volume": 57
+  },
+  {
+    "date": "2025-01-31",
+    "machine_id": "MRI_001",
+    "temperature": 70.25,
+    "helium_pressure": 86.09,
+    "vibration": 0.531,
+    "error_count": 6,
+    "scan_volume": 52
+  },
+  {
+    "date": "2025-01-31",
+    "machine_id": "MRI_002",
+    "temperature": 79.76,
+    "helium_pressure": 90.44,
+    "vibration": 0.721,
+    "error_count": 12,
+    "scan_volume": 28
+  },
+  {
+    "date": "2025-01-31",
+    "machine_id": "CT_001",
+    "temperature": 66.12,
+    "helium_pressure": 97.76,
+    "vibration": 0.485,
+    "error_count": 11,
+    "scan_volume": 33
+  },
+  {
+    "date": "2025-01-31",
+    "machine_id": "CT_002",
+    "temperature": 76.75,
+    "helium_pressure": 83.67,
+    "vibration": 0.772,
+    "error_count": 10,
+    "scan_volume": 33
+  },
+  {
+    "date": "2025-02-01",
+    "machine_id": "MRI_001",
+    "temperature": 65.08,
+    "helium_pressure": 85.72,
+    "vibration": 0.748,
+    "error_count": 11,
+    "scan_volume": 59
+  },
+  {
+    "date": "2025-02-01",
+    "machine_id": "MRI_002",
+    "temperature": 74.95,
+    "helium_pressure": 88.1,
+    "vibration": 0.302,
+    "error_count": 4,
+    "scan_volume": 33
+  },
+  {
+    "date": "2025-02-01",
+    "machine_id": "CT_001",
+    "temperature": 78.09,
+    "helium_pressure": 95.31,
+    "vibration": 0.619,
+    "error_count": 9,
+    "scan_volume": 53
+  },
+  {
+    "date": "2025-02-01",
+    "machine_id": "CT_002",
+    "temperature": 63.25,
+    "helium_pressure": 85.77,
+    "vibration": 0.554,
+    "error_count": 1,
+    "scan_volume": 34
+  },
+  {
+    "date": "2025-02-02",
+    "machine_id": "MRI_001",
+    "temperature": 79.52,
+    "helium_pressure": 97.77,
+    "vibration": 0.628,
+    "error_count": 7,
+    "scan_volume": 26
+  },
+  {
+    "date": "2025-02-02",
+    "machine_id": "MRI_002",
+    "temperature": 67.84,
+    "helium_pressure": 95.07,
+    "vibration": 0.855,
+    "error_count": 9,
+    "scan_volume": 38
+  },
+  {
+    "date": "2025-02-02",
+    "machine_id": "CT_001",
+    "temperature": 79.67,
+    "helium_pressure": 90.27,
+    "vibration": 0.512,
+    "error_count": 0,
+    "scan_volume": 60
+  },
+  {
+    "date": "2025-02-02",
+    "machine_id": "CT_002",
+    "temperature": 78.48,
+    "helium_pressure": 84.68,
+    "vibration": 0.197,
+    "error_count": 1,
+    "scan_volume": 25
+  },
+  {
+    "date": "2025-02-03",
+    "machine_id": "MRI_001",
+    "temperature": 63.7,
+    "helium_pressure": 84.81,
+    "vibration": 0.102,
+    "error_count": 1,
+    "scan_volume": 58
+  },
+  {
+    "date": "2025-02-03",
+    "machine_id": "MRI_002",
+    "temperature": 67.72,
+    "helium_pressure": 88.94,
+    "vibration": 0.192,
+    "error_count": 0,
+    "scan_volume": 57
+  },
+  {
+    "date": "2025-02-03",
+    "machine_id": "CT_001",
+    "temperature": 76.83,
+    "helium_pressure": 91.55,
+    "vibration": 0.794,
+    "error_count": 12,
+    "scan_volume": 55
+  },
+  {
+    "date": "2025-02-03",
+    "machine_id": "CT_002",
+    "temperature": 74.3,
+    "helium_pressure": 83.95,
+    "vibration": 0.538,
+    "error_count": 4,
+    "scan_volume": 37
+  },
+  {
+    "date": "2025-02-04",
+    "machine_id": "MRI_001",
+    "temperature": 67.45,
+    "helium_pressure": 94.75,
+    "vibration": 0.331,
+    "error_count": 11,
+    "scan_volume": 40
+  },
+  {
+    "date": "2025-02-04",
+    "machine_id": "MRI_002",
+    "temperature": 77.95,
+    "helium_pressure": 86.63,
+    "vibration": 0.355,
+    "error_count": 3,
+    "scan_volume": 30
+  },
+  {
+    "date": "2025-02-04",
+    "machine_id": "CT_001",
+    "temperature": 71.79,
+    "helium_pressure": 94.08,
+    "vibration": 0.729,
+    "error_count": 4,
+    "scan_volume": 51
+  },
+  {
+    "date": "2025-02-04",
+    "machine_id": "CT_002",
+    "temperature": 75.66,
+    "helium_pressure": 94.26,
+    "vibration": 0.54,
+    "error_count": 2,
+    "scan_volume": 37
+  },
+  {
+    "date": "2025-02-05",
+    "machine_id": "MRI_001",
+    "temperature": 66.3,
+    "helium_pressure": 88.54,
+    "vibration": 0.886,
+    "error_count": 5,
+    "scan_volume": 31
+  },
+  {
+    "date": "2025-02-05",
+    "machine_id": "MRI_002",
+    "temperature": 60.7,
+    "helium_pressure": 85.18,
+    "vibration": 0.718,
+    "error_count": 0,
+    "scan_volume": 54
+  },
+  {
+    "date": "2025-02-05",
+    "machine_id": "CT_001",
+    "temperature": 76.71,
+    "helium_pressure": 88.47,
+    "vibration": 0.246,
+    "error_count": 5,
+    "scan_volume": 42
+  },
+  {
+    "date": "2025-02-05",
+    "machine_id": "CT_002",
+    "temperature": 78.87,
+    "helium_pressure": 97.24,
+    "vibration": 0.571,
+    "error_count": 7,
+    "scan_volume": 29
+  },
+  {
+    "date": "2025-02-06",
+    "machine_id": "MRI_001",
+    "temperature": 66.63,
+    "helium_pressure": 96.45,
+    "vibration": 0.137,
+    "error_count": 6,
+    "scan_volume": 49
+  },
+  {
+    "date": "2025-02-06",
+    "machine_id": "MRI_002",
+    "temperature": 68.44,
+    "helium_pressure": 83.47,
+    "vibration": 0.11,
+    "error_count": 10,
+    "scan_volume": 50
+  },
+  {
+    "date": "2025-02-06",
+    "machine_id": "CT_001",
+    "temperature": 78.32,
+    "helium_pressure": 86.79,
+    "vibration": 0.169,
+    "error_count": 1,
+    "scan_volume": 39
+  },
+  {
+    "date": "2025-02-06",
+    "machine_id": "CT_002",
+    "temperature": 79.74,
+    "helium_pressure": 82.03,
+    "vibration": 0.458,
+    "error_count": 5,
+    "scan_volume": 31
+  },
+  {
+    "date": "2025-02-07",
+    "machine_id": "MRI_001",
+    "temperature": 67.98,
+    "helium_pressure": 95.09,
+    "vibration": 0.833,
+    "error_count": 4,
+    "scan_volume": 55
+  },
+  {
+    "date": "2025-02-07",
+    "machine_id": "MRI_002",
+    "temperature": 60.84,
+    "helium_pressure": 91.84,
+    "vibration": 0.394,
+    "error_count": 8,
+    "scan_volume": 37
+  },
+  {
+    "date": "2025-02-07",
+    "machine_id": "CT_001",
+    "temperature": 68.6,
+    "helium_pressure": 90.77,
+    "vibration": 0.335,
+    "error_count": 2,
+    "scan_volume": 49
+  },
+  {
+    "date": "2025-02-07",
+    "machine_id": "CT_002",
+    "temperature": 70.69,
+    "helium_pressure": 91.08,
+    "vibration": 0.597,
+    "error_count": 2,
+    "scan_volume": 49
+  },
+  {
+    "date": "2025-02-08",
+    "machine_id": "MRI_001",
+    "temperature": 72.14,
+    "helium_pressure": 94.56,
+    "vibration": 0.522,
+    "error_count": 8,
+    "scan_volume": 52
+  },
+  {
+    "date": "2025-02-08",
+    "machine_id": "MRI_002",
+    "temperature": 71.16,
+    "helium_pressure": 90.32,
+    "vibration": 0.608,
+    "error_count": 1,
+    "scan_volume": 55
+  },
+  {
+    "date": "2025-02-08",
+    "machine_id": "CT_001",
+    "temperature": 70.58,
+    "helium_pressure": 92.91,
+    "vibration": 0.613,
+    "error_count": 12,
+    "scan_volume": 29
+  },
+  {
+    "date": "2025-02-08",
+    "machine_id": "CT_002",
+    "temperature": 67.28,
+    "helium_pressure": 87.94,
+    "vibration": 0.573,
+    "error_count": 2,
+    "scan_volume": 48
+  },
+  {
+    "date": "2025-02-09",
+    "machine_id": "MRI_001",
+    "temperature": 69.07,
+    "helium_pressure": 83.24,
+    "vibration": 0.464,
+    "error_count": 6,
+    "scan_volume": 26
+  },
+  {
+    "date": "2025-02-09",
+    "machine_id": "MRI_002",
+    "temperature": 73.86,
+    "helium_pressure": 85.79,
+    "vibration": 0.118,
+    "error_count": 1,
+    "scan_volume": 33
+  },
+  {
+    "date": "2025-02-09",
+    "machine_id": "CT_001",
+    "temperature": 68.63,
+    "helium_pressure": 93.22,
+    "vibration": 0.891,
+    "error_count": 7,
+    "scan_volume": 58
+  },
+  {
+    "date": "2025-02-09",
+    "machine_id": "CT_002",
+    "temperature": 71.55,
+    "helium_pressure": 95.3,
+    "vibration": 0.249,
+    "error_count": 0,
+    "scan_volume": 44
+  },
+  {
+    "date": "2025-02-10",
+    "machine_id": "MRI_001",
+    "temperature": 79.56,
+    "helium_pressure": 90.85,
+    "vibration": 0.105,
+    "error_count": 9,
+    "scan_volume": 48
+  },
+  {
+    "date": "2025-02-10",
+    "machine_id": "MRI_002",
+    "temperature": 78.69,
+    "helium_pressure": 97.05,
+    "vibration": 0.727,
+    "error_count": 5,
+    "scan_volume": 46
+  },
+  {
+    "date": "2025-02-10",
+    "machine_id": "CT_001",
+    "temperature": 70.21,
+    "helium_pressure": 97.54,
+    "vibration": 0.194,
+    "error_count": 7,
+    "scan_volume": 54
+  },
+  {
+    "date": "2025-02-10",
+    "machine_id": "CT_002",
+    "temperature": 65.82,
+    "helium_pressure": 83.44,
+    "vibration": 0.698,
+    "error_count": 7,
+    "scan_volume": 43
+  },
+  {
+    "date": "2025-02-11",
+    "machine_id": "MRI_001",
+    "temperature": 67.7,
+    "helium_pressure": 84.96,
+    "vibration": 0.16,
+    "error_count": 8,
+    "scan_volume": 60
+  },
+  {
+    "date": "2025-02-11",
+    "machine_id": "MRI_002",
+    "temperature": 62.89,
+    "helium_pressure": 83.47,
+    "vibration": 0.67,
+    "error_count": 6,
+    "scan_volume": 33
+  },
+  {
+    "date": "2025-02-11",
+    "machine_id": "CT_001",
+    "temperature": 68.71,
+    "helium_pressure": 84.83,
+    "vibration": 0.213,
+    "error_count": 7,
+    "scan_volume": 46
+  },
+  {
+    "date": "2025-02-11",
+    "machine_id": "CT_002",
+    "temperature": 70.24,
+    "helium_pressure": 83.19,
+    "vibration": 0.143,
+    "error_count": 11,
+    "scan_volume": 41
+  },
+  {
+    "date": "2025-02-12",
+    "machine_id": "MRI_001",
+    "temperature": 74.42,
+    "helium_pressure": 87.86,
+    "vibration": 0.833,
+    "error_count": 1,
+    "scan_volume": 60
+  },
+  {
+    "date": "2025-02-12",
+    "machine_id": "MRI_002",
+    "temperature": 66.93,
+    "helium_pressure": 86.7,
+    "vibration": 0.489,
+    "error_count": 0,
+    "scan_volume": 45
+  },
+  {
+    "date": "2025-02-12",
+    "machine_id": "CT_001",
+    "temperature": 68.7,
+    "helium_pressure": 90.09,
+    "vibration": 0.102,
+    "error_count": 9,
+    "scan_volume": 34
+  },
+  {
+    "date": "2025-02-12",
+    "machine_id": "CT_002",
+    "temperature": 62.53,
+    "helium_pressure": 95.91,
+    "vibration": 0.498,
+    "error_count": 0,
+    "scan_volume": 26
+  },
+  {
+    "date": "2025-02-13",
+    "machine_id": "MRI_001",
+    "temperature": 78.76,
+    "helium_pressure": 82.8,
+    "vibration": 0.606,
+    "error_count": 3,
+    "scan_volume": 46
+  },
+  {
+    "date": "2025-02-13",
+    "machine_id": "MRI_002",
+    "temperature": 68.2,
+    "helium_pressure": 97.21,
+    "vibration": 0.467,
+    "error_count": 3,
+    "scan_volume": 33
+  },
+  {
+    "date": "2025-02-13",
+    "machine_id": "CT_001",
+    "temperature": 65.57,
+    "helium_pressure": 95.83,
+    "vibration": 0.894,
+    "error_count": 8,
+    "scan_volume": 35
+  },
+  {
+    "date": "2025-02-13",
+    "machine_id": "CT_002",
+    "temperature": 78.39,
+    "helium_pressure": 91.78,
+    "vibration": 0.81,
+    "error_count": 12,
+    "scan_volume": 42
+  },
+  {
+    "date": "2025-02-14",
+    "machine_id": "MRI_001",
+    "temperature": 60.1,
+    "helium_pressure": 83.42,
+    "vibration": 0.516,
+    "error_count": 8,
+    "scan_volume": 36
+  },
+  {
+    "date": "2025-02-14",
+    "machine_id": "MRI_002",
+    "temperature": 63.22,
+    "helium_pressure": 86.19,
+    "vibration": 0.462,
+    "error_count": 1,
+    "scan_volume": 33
+  },
+  {
+    "date": "2025-02-14",
+    "machine_id": "CT_001",
+    "temperature": 79.87,
+    "helium_pressure": 83.16,
+    "vibration": 0.853,
+    "error_count": 8,
+    "scan_volume": 48
+  },
+  {
+    "date": "2025-02-14",
+    "machine_id": "CT_002",
+    "temperature": 60.12,
+    "helium_pressure": 83.05,
+    "vibration": 0.729,
+    "error_count": 8,
+    "scan_volume": 28
+  },
+  {
+    "date": "2025-02-15",
+    "machine_id": "MRI_001",
+    "temperature": 61.83,
+    "helium_pressure": 91.19,
+    "vibration": 0.88,
+    "error_count": 9,
+    "scan_volume": 36
+  },
+  {
+    "date": "2025-02-15",
+    "machine_id": "MRI_002",
+    "temperature": 76.88,
+    "helium_pressure": 96.17,
+    "vibration": 0.187,
+    "error_count": 10,
+    "scan_volume": 30
+  },
+  {
+    "date": "2025-02-15",
+    "machine_id": "CT_001",
+    "temperature": 66.3,
+    "helium_pressure": 88.84,
+    "vibration": 0.698,
+    "error_count": 0,
+    "scan_volume": 48
+  },
+  {
+    "date": "2025-02-15",
+    "machine_id": "CT_002",
+    "temperature": 64.55,
+    "helium_pressure": 95.07,
+    "vibration": 0.735,
+    "error_count": 0,
+    "scan_volume": 33
+  },
+  {
+    "date": "2025-02-16",
+    "machine_id": "MRI_001",
+    "temperature": 63.99,
+    "helium_pressure": 82.53,
+    "vibration": 0.157,
+    "error_count": 6,
+    "scan_volume": 45
+  },
+  {
+    "date": "2025-02-16",
+    "machine_id": "MRI_002",
+    "temperature": 73.61,
+    "helium_pressure": 82.07,
+    "vibration": 0.487,
+    "error_count": 11,
+    "scan_volume": 30
+  },
+  {
+    "date": "2025-02-16",
+    "machine_id": "CT_001",
+    "temperature": 77.55,
+    "helium_pressure": 91.18,
+    "vibration": 0.35,
+    "error_count": 11,
+    "scan_volume": 45
+  },
+  {
+    "date": "2025-02-16",
+    "machine_id": "CT_002",
+    "temperature": 73.98,
+    "helium_pressure": 85.63,
+    "vibration": 0.617,
+    "error_count": 12,
+    "scan_volume": 58
+  },
+  {
+    "date": "2025-02-17",
+    "machine_id": "MRI_001",
+    "temperature": 69.37,
+    "helium_pressure": 91.49,
+    "vibration": 0.558,
+    "error_count": 6,
+    "scan_volume": 47
+  },
+  {
+    "date": "2025-02-17",
+    "machine_id": "MRI_002",
+    "temperature": 62.63,
+    "helium_pressure": 86.11,
+    "vibration": 0.865,
+    "error_count": 12,
+    "scan_volume": 32
+  },
+  {
+    "date": "2025-02-17",
+    "machine_id": "CT_001",
+    "temperature": 68.27,
+    "helium_pressure": 93.72,
+    "vibration": 0.867,
+    "error_count": 12,
+    "scan_volume": 57
+  },
+  {
+    "date": "2025-02-17",
+    "machine_id": "CT_002",
+    "temperature": 78.51,
+    "helium_pressure": 97.64,
+    "vibration": 0.262,
+    "error_count": 4,
+    "scan_volume": 59
+  },
+  {
+    "date": "2025-02-18",
+    "machine_id": "MRI_001",
+    "temperature": 61.65,
+    "helium_pressure": 96.43,
+    "vibration": 0.68,
+    "error_count": 1,
+    "scan_volume": 27
+  },
+  {
+    "date": "2025-02-18",
+    "machine_id": "MRI_002",
+    "temperature": 65.16,
+    "helium_pressure": 82.73,
+    "vibration": 0.381,
+    "error_count": 8,
+    "scan_volume": 50
+  },
+  {
+    "date": "2025-02-18",
+    "machine_id": "CT_001",
+    "temperature": 64.44,
+    "helium_pressure": 84.93,
+    "vibration": 0.475,
+    "error_count": 4,
+    "scan_volume": 38
+  },
+  {
+    "date": "2025-02-18",
+    "machine_id": "CT_002",
+    "temperature": 79.42,
+    "helium_pressure": 94.54,
+    "vibration": 0.683,
+    "error_count": 7,
+    "scan_volume": 41
+  },
+  {
+    "date": "2025-02-19",
+    "machine_id": "MRI_001",
+    "temperature": 70.48,
+    "helium_pressure": 96.1,
+    "vibration": 0.294,
+    "error_count": 2,
+    "scan_volume": 51
+  },
+  {
+    "date": "2025-02-19",
+    "machine_id": "MRI_002",
+    "temperature": 70.6,
+    "helium_pressure": 88.49,
+    "vibration": 0.318,
+    "error_count": 8,
+    "scan_volume": 52
+  },
+  {
+    "date": "2025-02-19",
+    "machine_id": "CT_001",
+    "temperature": 60.78,
+    "helium_pressure": 88.87,
+    "vibration": 0.255,
+    "error_count": 8,
+    "scan_volume": 39
+  },
+  {
+    "date": "2025-02-19",
+    "machine_id": "CT_002",
+    "temperature": 79.79,
+    "helium_pressure": 97.94,
+    "vibration": 0.813,
+    "error_count": 8,
+    "scan_volume": 57
+  },
+  {
+    "date": "2025-02-20",
+    "machine_id": "MRI_001",
+    "temperature": 63.9,
+    "helium_pressure": 86.86,
+    "vibration": 0.242,
+    "error_count": 12,
+    "scan_volume": 39
+  },
+  {
+    "date": "2025-02-20",
+    "machine_id": "MRI_002",
+    "temperature": 67.65,
+    "helium_pressure": 97.7,
+    "vibration": 0.826,
+    "error_count": 4,
+    "scan_volume": 50
+  },
+  {
+    "date": "2025-02-20",
+    "machine_id": "CT_001",
+    "temperature": 78.3,
+    "helium_pressure": 90.64,
+    "vibration": 0.365,
+    "error_count": 0,
+    "scan_volume": 53
+  },
+  {
+    "date": "2025-02-20",
+    "machine_id": "CT_002",
+    "temperature": 76.33,
+    "helium_pressure": 96.83,
+    "vibration": 0.664,
+    "error_count": 6,
+    "scan_volume": 48
+  },
+  {
+    "date": "2025-02-21",
+    "machine_id": "MRI_001",
+    "temperature": 68.98,
+    "helium_pressure": 87.37,
+    "vibration": 0.164,
+    "error_count": 6,
+    "scan_volume": 35
+  },
+  {
+    "date": "2025-02-21",
+    "machine_id": "MRI_002",
+    "temperature": 64.12,
+    "helium_pressure": 84.92,
+    "vibration": 0.76,
+    "error_count": 9,
+    "scan_volume": 27
+  },
+  {
+    "date": "2025-02-21",
+    "machine_id": "CT_001",
+    "temperature": 70.82,
+    "helium_pressure": 87.33,
+    "vibration": 0.713,
+    "error_count": 1,
+    "scan_volume": 27
+  },
+  {
+    "date": "2025-02-21",
+    "machine_id": "CT_002",
+    "temperature": 69.87,
+    "helium_pressure": 93.2,
+    "vibration": 0.684,
+    "error_count": 10,
+    "scan_volume": 31
+  },
+  {
+    "date": "2025-02-22",
+    "machine_id": "MRI_001",
+    "temperature": 77.79,
+    "helium_pressure": 83.6,
+    "vibration": 0.167,
+    "error_count": 1,
+    "scan_volume": 54
+  },
+  {
+    "date": "2025-02-22",
+    "machine_id": "MRI_002",
+    "temperature": 75.58,
+    "helium_pressure": 97.06,
+    "vibration": 0.176,
+    "error_count": 10,
+    "scan_volume": 26
+  },
+  {
+    "date": "2025-02-22",
+    "machine_id": "CT_001",
+    "temperature": 62.85,
+    "helium_pressure": 94.89,
+    "vibration": 0.663,
+    "error_count": 7,
+    "scan_volume": 49
+  },
+  {
+    "date": "2025-02-22",
+    "machine_id": "CT_002",
+    "temperature": 61.08,
+    "helium_pressure": 93.24,
+    "vibration": 0.235,
+    "error_count": 0,
+    "scan_volume": 50
+  },
+  {
+    "date": "2025-02-23",
+    "machine_id": "MRI_001",
+    "temperature": 74.34,
+    "helium_pressure": 87.94,
+    "vibration": 0.287,
+    "error_count": 4,
+    "scan_volume": 30
+  },
+  {
+    "date": "2025-02-23",
+    "machine_id": "MRI_002",
+    "temperature": 73.65,
+    "helium_pressure": 97.97,
+    "vibration": 0.814,
+    "error_count": 10,
+    "scan_volume": 33
+  },
+  {
+    "date": "2025-02-23",
+    "machine_id": "CT_001",
+    "temperature": 63.64,
+    "helium_pressure": 96.42,
+    "vibration": 0.728,
+    "error_count": 9,
+    "scan_volume": 47
+  },
+  {
+    "date": "2025-02-23",
+    "machine_id": "CT_002",
+    "temperature": 77.44,
+    "helium_pressure": 82.95,
+    "vibration": 0.226,
+    "error_count": 6,
+    "scan_volume": 28
+  },
+  {
+    "date": "2025-02-24",
+    "machine_id": "MRI_001",
+    "temperature": 61.58,
+    "helium_pressure": 83.78,
+    "vibration": 0.272,
+    "error_count": 11,
+    "scan_volume": 36
+  },
+  {
+    "date": "2025-02-24",
+    "machine_id": "MRI_002",
+    "temperature": 78.13,
+    "helium_pressure": 87.55,
+    "vibration": 0.738,
+    "error_count": 10,
+    "scan_volume": 41
+  },
+  {
+    "date": "2025-02-24",
+    "machine_id": "CT_001",
+    "temperature": 68.8,
+    "helium_pressure": 96.25,
+    "vibration": 0.372,
+    "error_count": 7,
+    "scan_volume": 43
+  },
+  {
+    "date": "2025-02-24",
+    "machine_id": "CT_002",
+    "temperature": 60.88,
+    "helium_pressure": 95.36,
+    "vibration": 0.18,
+    "error_count": 7,
+    "scan_volume": 37
+  },
+  {
+    "date": "2025-02-25",
+    "machine_id": "MRI_001",
+    "temperature": 76.89,
+    "helium_pressure": 89.42,
+    "vibration": 0.541,
+    "error_count": 5,
+    "scan_volume": 48
+  },
+  {
+    "date": "2025-02-25",
+    "machine_id": "MRI_002",
+    "temperature": 72.88,
+    "helium_pressure": 96.62,
+    "vibration": 0.633,
+    "error_count": 1,
+    "scan_volume": 28
+  },
+  {
+    "date": "2025-02-25",
+    "machine_id": "CT_001",
+    "temperature": 60.19,
+    "helium_pressure": 88.28,
+    "vibration": 0.866,
+    "error_count": 9,
+    "scan_volume": 38
+  },
+  {
+    "date": "2025-02-25",
+    "machine_id": "CT_002",
+    "temperature": 79.4,
+    "helium_pressure": 94.37,
+    "vibration": 0.11,
+    "error_count": 11,
+    "scan_volume": 32
+  },
+  {
+    "date": "2025-02-26",
+    "machine_id": "MRI_001",
+    "temperature": 60.06,
+    "helium_pressure": 87.57,
+    "vibration": 0.85,
+    "error_count": 3,
+    "scan_volume": 52
+  },
+  {
+    "date": "2025-02-26",
+    "machine_id": "MRI_002",
+    "temperature": 60.91,
+    "helium_pressure": 91.79,
+    "vibration": 0.878,
+    "error_count": 4,
+    "scan_volume": 29
+  },
+  {
+    "date": "2025-02-26",
+    "machine_id": "CT_001",
+    "temperature": 61.44,
+    "helium_pressure": 86.8,
+    "vibration": 0.591,
+    "error_count": 1,
+    "scan_volume": 39
+  },
+  {
+    "date": "2025-02-26",
+    "machine_id": "CT_002",
+    "temperature": 79.81,
+    "helium_pressure": 87.39,
+    "vibration": 0.592,
+    "error_count": 2,
+    "scan_volume": 59
+  },
+  {
+    "date": "2025-02-27",
+    "machine_id": "MRI_001",
+    "temperature": 67.18,
+    "helium_pressure": 94.16,
+    "vibration": 0.295,
+    "error_count": 5,
+    "scan_volume": 46
+  },
+  {
+    "date": "2025-02-27",
+    "machine_id": "MRI_002",
+    "temperature": 62.93,
+    "helium_pressure": 87.78,
+    "vibration": 0.157,
+    "error_count": 0,
+    "scan_volume": 51
+  },
+  {
+    "date": "2025-02-27",
+    "machine_id": "CT_001",
+    "temperature": 79.28,
+    "helium_pressure": 91.11,
+    "vibration": 0.562,
+    "error_count": 10,
+    "scan_volume": 26
+  },
+  {
+    "date": "2025-02-27",
+    "machine_id": "CT_002",
+    "temperature": 67.96,
+    "helium_pressure": 88.86,
+    "vibration": 0.831,
+    "error_count": 8,
+    "scan_volume": 28
+  },
+  {
+    "date": "2025-02-28",
+    "machine_id": "MRI_001",
+    "temperature": 61.47,
+    "helium_pressure": 88.19,
+    "vibration": 0.451,
+    "error_count": 4,
+    "scan_volume": 27
+  },
+  {
+    "date": "2025-02-28",
+    "machine_id": "MRI_002",
+    "temperature": 75.57,
+    "helium_pressure": 96.33,
+    "vibration": 0.897,
+    "error_count": 8,
+    "scan_volume": 42
+  },
+  {
+    "date": "2025-02-28",
+    "machine_id": "CT_001",
+    "temperature": 73.89,
+    "helium_pressure": 84.0,
+    "vibration": 0.812,
+    "error_count": 3,
+    "scan_volume": 37
+  },
+  {
+    "date": "2025-02-28",
+    "machine_id": "CT_002",
+    "temperature": 71.41,
+    "helium_pressure": 86.62,
+    "vibration": 0.565,
+    "error_count": 5,
+    "scan_volume": 39
+  },
+  {
+    "date": "2025-03-01",
+    "machine_id": "MRI_001",
+    "temperature": 60.41,
+    "helium_pressure": 88.28,
+    "vibration": 0.467,
+    "error_count": 12,
+    "scan_volume": 35
+  },
+  {
+    "date": "2025-03-01",
+    "machine_id": "MRI_002",
+    "temperature": 66.68,
+    "helium_pressure": 82.13,
+    "vibration": 0.229,
+    "error_count": 5,
+    "scan_volume": 25
+  },
+  {
+    "date": "2025-03-01",
+    "machine_id": "CT_001",
+    "temperature": 61.46,
+    "helium_pressure": 85.4,
+    "vibration": 0.404,
+    "error_count": 4,
+    "scan_volume": 33
+  },
+  {
+    "date": "2025-03-01",
+    "machine_id": "CT_002",
+    "temperature": 77.98,
+    "helium_pressure": 84.94,
+    "vibration": 0.185,
+    "error_count": 8,
+    "scan_volume": 41
+  },
+  {
+    "date": "2025-03-02",
+    "machine_id": "MRI_001",
+    "temperature": 63.68,
+    "helium_pressure": 82.98,
+    "vibration": 0.249,
+    "error_count": 9,
+    "scan_volume": 34
+  },
+  {
+    "date": "2025-03-02",
+    "machine_id": "MRI_002",
+    "temperature": 64.38,
+    "helium_pressure": 85.54,
+    "vibration": 0.365,
+    "error_count": 1,
+    "scan_volume": 29
+  },
+  {
+    "date": "2025-03-02",
+    "machine_id": "CT_001",
+    "temperature": 60.3,
+    "helium_pressure": 94.6,
+    "vibration": 0.557,
+    "error_count": 10,
+    "scan_volume": 51
+  },
+  {
+    "date": "2025-03-02",
+    "machine_id": "CT_002",
+    "temperature": 76.78,
+    "helium_pressure": 82.74,
+    "vibration": 0.295,
+    "error_count": 10,
+    "scan_volume": 59
+  },
+  {
+    "date": "2025-03-03",
+    "machine_id": "MRI_001",
+    "temperature": 71.12,
+    "helium_pressure": 88.62,
+    "vibration": 0.303,
+    "error_count": 0,
+    "scan_volume": 34
+  },
+  {
+    "date": "2025-03-03",
+    "machine_id": "MRI_002",
+    "temperature": 77.73,
+    "helium_pressure": 83.87,
+    "vibration": 0.407,
+    "error_count": 7,
+    "scan_volume": 39
+  },
+  {
+    "date": "2025-03-03",
+    "machine_id": "CT_001",
+    "temperature": 75.89,
+    "helium_pressure": 91.86,
+    "vibration": 0.105,
+    "error_count": 10,
+    "scan_volume": 46
+  },
+  {
+    "date": "2025-03-03",
+    "machine_id": "CT_002",
+    "temperature": 79.15,
+    "helium_pressure": 96.78,
+    "vibration": 0.465,
+    "error_count": 12,
+    "scan_volume": 60
+  },
+  {
+    "date": "2025-03-04",
+    "machine_id": "MRI_001",
+    "temperature": 75.8,
+    "helium_pressure": 90.69,
+    "vibration": 0.359,
+    "error_count": 9,
+    "scan_volume": 36
+  },
+  {
+    "date": "2025-03-04",
+    "machine_id": "MRI_002",
+    "temperature": 61.75,
+    "helium_pressure": 91.49,
+    "vibration": 0.575,
+    "error_count": 6,
+    "scan_volume": 44
+  },
+  {
+    "date": "2025-03-04",
+    "machine_id": "CT_001",
+    "temperature": 63.35,
+    "helium_pressure": 82.74,
+    "vibration": 0.863,
+    "error_count": 3,
+    "scan_volume": 51
+  },
+  {
+    "date": "2025-03-04",
+    "machine_id": "CT_002",
+    "temperature": 73.42,
+    "helium_pressure": 96.12,
+    "vibration": 0.738,
+    "error_count": 11,
+    "scan_volume": 34
+  },
+  {
+    "date": "2025-03-05",
+    "machine_id": "MRI_001",
+    "temperature": 69.15,
+    "helium_pressure": 87.66,
+    "vibration": 0.249,
+    "error_count": 4,
+    "scan_volume": 54
+  },
+  {
+    "date": "2025-03-05",
+    "machine_id": "MRI_002",
+    "temperature": 79.67,
+    "helium_pressure": 96.24,
+    "vibration": 0.656,
+    "error_count": 2,
+    "scan_volume": 25
+  },
+  {
+    "date": "2025-03-05",
+    "machine_id": "CT_001",
+    "temperature": 78.15,
+    "helium_pressure": 83.83,
+    "vibration": 0.741,
+    "error_count": 2,
+    "scan_volume": 39
+  },
+  {
+    "date": "2025-03-05",
+    "machine_id": "CT_002",
+    "temperature": 74.27,
+    "helium_pressure": 90.81,
+    "vibration": 0.245,
+    "error_count": 6,
+    "scan_volume": 35
+  },
+  {
+    "date": "2025-03-06",
+    "machine_id": "MRI_001",
+    "temperature": 61.98,
+    "helium_pressure": 94.72,
+    "vibration": 0.68,
+    "error_count": 2,
+    "scan_volume": 29
+  },
+  {
+    "date": "2025-03-06",
+    "machine_id": "MRI_002",
+    "temperature": 67.05,
+    "helium_pressure": 96.57,
+    "vibration": 0.729,
+    "error_count": 8,
+    "scan_volume": 56
+  },
+  {
+    "date": "2025-03-06",
+    "machine_id": "CT_001",
+    "temperature": 74.46,
+    "helium_pressure": 92.98,
+    "vibration": 0.552,
+    "error_count": 6,
+    "scan_volume": 31
+  },
+  {
+    "date": "2025-03-06",
+    "machine_id": "CT_002",
+    "temperature": 75.46,
+    "helium_pressure": 90.05,
+    "vibration": 0.269,
+    "error_count": 5,
+    "scan_volume": 46
+  },
+  {
+    "date": "2025-03-07",
+    "machine_id": "MRI_001",
+    "temperature": 71.0,
+    "helium_pressure": 83.3,
+    "vibration": 0.571,
+    "error_count": 5,
+    "scan_volume": 54
+  },
+  {
+    "date": "2025-03-07",
+    "machine_id": "MRI_002",
+    "temperature": 73.81,
+    "helium_pressure": 89.53,
+    "vibration": 0.663,
+    "error_count": 1,
+    "scan_volume": 49
+  },
+  {
+    "date": "2025-03-07",
+    "machine_id": "CT_001",
+    "temperature": 71.12,
+    "helium_pressure": 82.71,
+    "vibration": 0.14,
+    "error_count": 12,
+    "scan_volume": 46
+  },
+  {
+    "date": "2025-03-07",
+    "machine_id": "CT_002",
+    "temperature": 78.34,
+    "helium_pressure": 89.66,
+    "vibration": 0.712,
+    "error_count": 11,
+    "scan_volume": 38
+  },
+  {
+    "date": "2025-03-08",
+    "machine_id": "MRI_001",
+    "temperature": 61.34,
+    "helium_pressure": 97.67,
+    "vibration": 0.587,
+    "error_count": 2,
+    "scan_volume": 57
+  },
+  {
+    "date": "2025-03-08",
+    "machine_id": "MRI_002",
+    "temperature": 78.17,
+    "helium_pressure": 89.67,
+    "vibration": 0.238,
+    "error_count": 8,
+    "scan_volume": 42
+  },
+  {
+    "date": "2025-03-08",
+    "machine_id": "CT_001",
+    "temperature": 66.63,
+    "helium_pressure": 96.11,
+    "vibration": 0.793,
+    "error_count": 10,
+    "scan_volume": 31
+  },
+  {
+    "date": "2025-03-08",
+    "machine_id": "CT_002",
+    "temperature": 79.91,
+    "helium_pressure": 84.21,
+    "vibration": 0.678,
+    "error_count": 7,
+    "scan_volume": 35
+  },
+  {
+    "date": "2025-03-09",
+    "machine_id": "MRI_001",
+    "temperature": 60.02,
+    "helium_pressure": 84.84,
+    "vibration": 0.271,
+    "error_count": 4,
+    "scan_volume": 59
+  },
+  {
+    "date": "2025-03-09",
+    "machine_id": "MRI_002",
+    "temperature": 62.55,
+    "helium_pressure": 96.83,
+    "vibration": 0.884,
+    "error_count": 2,
+    "scan_volume": 34
+  },
+  {
+    "date": "2025-03-09",
+    "machine_id": "CT_001",
+    "temperature": 61.18,
+    "helium_pressure": 83.42,
+    "vibration": 0.323,
+    "error_count": 4,
+    "scan_volume": 38
+  },
+  {
+    "date": "2025-03-09",
+    "machine_id": "CT_002",
+    "temperature": 74.62,
+    "helium_pressure": 96.79,
+    "vibration": 0.788,
+    "error_count": 11,
+    "scan_volume": 32
+  },
+  {
+    "date": "2025-03-10",
+    "machine_id": "MRI_001",
+    "temperature": 61.32,
+    "helium_pressure": 97.58,
+    "vibration": 0.865,
+    "error_count": 9,
+    "scan_volume": 37
+  },
+  {
+    "date": "2025-03-10",
+    "machine_id": "MRI_002",
+    "temperature": 74.02,
+    "helium_pressure": 92.77,
+    "vibration": 0.689,
+    "error_count": 11,
+    "scan_volume": 25
+  },
+  {
+    "date": "2025-03-10",
+    "machine_id": "CT_001",
+    "temperature": 62.55,
+    "helium_pressure": 92.14,
+    "vibration": 0.883,
+    "error_count": 4,
+    "scan_volume": 34
+  },
+  {
+    "date": "2025-03-10",
+    "machine_id": "CT_002",
+    "temperature": 64.38,
+    "helium_pressure": 84.1,
+    "vibration": 0.674,
+    "error_count": 7,
+    "scan_volume": 47
+  },
+  {
+    "date": "2025-03-11",
+    "machine_id": "MRI_001",
+    "temperature": 77.01,
+    "helium_pressure": 84.04,
+    "vibration": 0.801,
+    "error_count": 3,
+    "scan_volume": 48
+  },
+  {
+    "date": "2025-03-11",
+    "machine_id": "MRI_002",
+    "temperature": 74.36,
+    "helium_pressure": 82.66,
+    "vibration": 0.721,
+    "error_count": 2,
+    "scan_volume": 57
+  },
+  {
+    "date": "2025-03-11",
+    "machine_id": "CT_001",
+    "temperature": 61.87,
+    "helium_pressure": 87.37,
+    "vibration": 0.138,
+    "error_count": 4,
+    "scan_volume": 50
+  },
+  {
+    "date": "2025-03-11",
+    "machine_id": "CT_002",
+    "temperature": 63.94,
+    "helium_pressure": 92.91,
+    "vibration": 0.76,
+    "error_count": 5,
+    "scan_volume": 39
+  },
+  {
+    "date": "2025-03-12",
+    "machine_id": "MRI_001",
+    "temperature": 78.7,
+    "helium_pressure": 89.04,
+    "vibration": 0.468,
+    "error_count": 6,
+    "scan_volume": 31
+  },
+  {
+    "date": "2025-03-12",
+    "machine_id": "MRI_002",
+    "temperature": 72.22,
+    "helium_pressure": 85.59,
+    "vibration": 0.714,
+    "error_count": 10,
+    "scan_volume": 26
+  },
+  {
+    "date": "2025-03-12",
+    "machine_id": "CT_001",
+    "temperature": 73.04,
+    "helium_pressure": 97.85,
+    "vibration": 0.172,
+    "error_count": 10,
+    "scan_volume": 29
+  },
+  {
+    "date": "2025-03-12",
+    "machine_id": "CT_002",
+    "temperature": 69.39,
+    "helium_pressure": 88.05,
+    "vibration": 0.586,
+    "error_count": 2,
+    "scan_volume": 58
+  },
+  {
+    "date": "2025-03-13",
+    "machine_id": "MRI_001",
+    "temperature": 64.36,
+    "helium_pressure": 97.11,
+    "vibration": 0.123,
+    "error_count": 3,
+    "scan_volume": 59
+  },
+  {
+    "date": "2025-03-13",
+    "machine_id": "MRI_002",
+    "temperature": 76.42,
+    "helium_pressure": 83.07,
+    "vibration": 0.41,
+    "error_count": 2,
+    "scan_volume": 34
+  },
+  {
+    "date": "2025-03-13",
+    "machine_id": "CT_001",
+    "temperature": 71.35,
+    "helium_pressure": 94.82,
+    "vibration": 0.262,
+    "error_count": 1,
+    "scan_volume": 51
+  },
+  {
+    "date": "2025-03-13",
+    "machine_id": "CT_002",
+    "temperature": 69.74,
+    "helium_pressure": 90.02,
+    "vibration": 0.394,
+    "error_count": 8,
+    "scan_volume": 48
+  },
+  {
+    "date": "2025-03-14",
+    "machine_id": "MRI_001",
+    "temperature": 79.38,
+    "helium_pressure": 88.68,
+    "vibration": 0.876,
+    "error_count": 6,
+    "scan_volume": 54
+  },
+  {
+    "date": "2025-03-14",
+    "machine_id": "MRI_002",
+    "temperature": 79.08,
+    "helium_pressure": 96.03,
+    "vibration": 0.132,
+    "error_count": 3,
+    "scan_volume": 50
+  },
+  {
+    "date": "2025-03-14",
+    "machine_id": "CT_001",
+    "temperature": 78.6,
+    "helium_pressure": 83.35,
+    "vibration": 0.51,
+    "error_count": 6,
+    "scan_volume": 48
+  },
+  {
+    "date": "2025-03-14",
+    "machine_id": "CT_002",
+    "temperature": 67.23,
+    "helium_pressure": 86.85,
+    "vibration": 0.33,
+    "error_count": 12,
+    "scan_volume": 41
+  },
+  {
+    "date": "2025-03-15",
+    "machine_id": "MRI_001",
+    "temperature": 66.01,
+    "helium_pressure": 82.58,
+    "vibration": 0.872,
+    "error_count": 6,
+    "scan_volume": 37
+  },
+  {
+    "date": "2025-03-15",
+    "machine_id": "MRI_002",
+    "temperature": 73.7,
+    "helium_pressure": 91.67,
+    "vibration": 0.251,
+    "error_count": 3,
+    "scan_volume": 51
+  },
+  {
+    "date": "2025-03-15",
+    "machine_id": "CT_001",
+    "temperature": 66.88,
+    "helium_pressure": 86.84,
+    "vibration": 0.584,
+    "error_count": 2,
+    "scan_volume": 54
+  },
+  {
+    "date": "2025-03-15",
+    "machine_id": "CT_002",
+    "temperature": 63.8,
+    "helium_pressure": 95.54,
+    "vibration": 0.408,
+    "error_count": 6,
+    "scan_volume": 32
+  },
+  {
+    "date": "2025-03-16",
+    "machine_id": "MRI_001",
+    "temperature": 61.77,
+    "helium_pressure": 97.5,
+    "vibration": 0.305,
+    "error_count": 12,
+    "scan_volume": 51
+  },
+  {
+    "date": "2025-03-16",
+    "machine_id": "MRI_002",
+    "temperature": 73.31,
+    "helium_pressure": 96.71,
+    "vibration": 0.691,
+    "error_count": 10,
+    "scan_volume": 60
+  },
+  {
+    "date": "2025-03-16",
+    "machine_id": "CT_001",
+    "temperature": 73.91,
+    "helium_pressure": 86.26,
+    "vibration": 0.221,
+    "error_count": 10,
+    "scan_volume": 57
+  },
+  {
+    "date": "2025-03-16",
+    "machine_id": "CT_002",
+    "temperature": 77.0,
+    "helium_pressure": 92.18,
+    "vibration": 0.864,
+    "error_count": 8,
+    "scan_volume": 56
+  },
+  {
+    "date": "2025-03-17",
+    "machine_id": "MRI_001",
+    "temperature": 78.98,
+    "helium_pressure": 91.51,
+    "vibration": 0.65,
+    "error_count": 1,
+    "scan_volume": 51
+  },
+  {
+    "date": "2025-03-17",
+    "machine_id": "MRI_002",
+    "temperature": 62.95,
+    "helium_pressure": 85.84,
+    "vibration": 0.349,
+    "error_count": 11,
+    "scan_volume": 30
+  },
+  {
+    "date": "2025-03-17",
+    "machine_id": "CT_001",
+    "temperature": 73.16,
+    "helium_pressure": 91.13,
+    "vibration": 0.404,
+    "error_count": 3,
+    "scan_volume": 37
+  },
+  {
+    "date": "2025-03-17",
+    "machine_id": "CT_002",
+    "temperature": 71.19,
+    "helium_pressure": 94.88,
+    "vibration": 0.81,
+    "error_count": 11,
+    "scan_volume": 43
+  },
+  {
+    "date": "2025-03-18",
+    "machine_id": "MRI_001",
+    "temperature": 78.94,
+    "helium_pressure": 97.59,
+    "vibration": 0.249,
+    "error_count": 5,
+    "scan_volume": 28
+  },
+  {
+    "date": "2025-03-18",
+    "machine_id": "MRI_002",
+    "temperature": 67.29,
+    "helium_pressure": 85.77,
+    "vibration": 0.296,
+    "error_count": 3,
+    "scan_volume": 27
+  },
+  {
+    "date": "2025-03-18",
+    "machine_id": "CT_001",
+    "temperature": 76.18,
+    "helium_pressure": 85.85,
+    "vibration": 0.163,
+    "error_count": 5,
+    "scan_volume": 58
+  },
+  {
+    "date": "2025-03-18",
+    "machine_id": "CT_002",
+    "temperature": 69.99,
+    "helium_pressure": 82.45,
+    "vibration": 0.884,
+    "error_count": 4,
+    "scan_volume": 48
+  },
+  {
+    "date": "2025-03-19",
+    "machine_id": "MRI_001",
+    "temperature": 77.27,
+    "helium_pressure": 94.45,
+    "vibration": 0.412,
+    "error_count": 11,
+    "scan_volume": 42
+  },
+  {
+    "date": "2025-03-19",
+    "machine_id": "MRI_002",
+    "temperature": 69.99,
+    "helium_pressure": 94.74,
+    "vibration": 0.421,
+    "error_count": 11,
+    "scan_volume": 42
+  },
+  {
+    "date": "2025-03-19",
+    "machine_id": "CT_001",
+    "temperature": 74.43,
+    "helium_pressure": 97.08,
+    "vibration": 0.833,
+    "error_count": 5,
+    "scan_volume": 37
+  },
+  {
+    "date": "2025-03-19",
+    "machine_id": "CT_002",
+    "temperature": 67.21,
+    "helium_pressure": 85.84,
+    "vibration": 0.397,
+    "error_count": 7,
+    "scan_volume": 42
+  },
+  {
+    "date": "2025-03-20",
+    "machine_id": "MRI_001",
+    "temperature": 67.86,
+    "helium_pressure": 96.9,
+    "vibration": 0.576,
+    "error_count": 8,
+    "scan_volume": 49
+  },
+  {
+    "date": "2025-03-20",
+    "machine_id": "MRI_002",
+    "temperature": 79.25,
+    "helium_pressure": 83.02,
+    "vibration": 0.267,
+    "error_count": 4,
+    "scan_volume": 33
+  },
+  {
+    "date": "2025-03-20",
+    "machine_id": "CT_001",
+    "temperature": 61.58,
+    "helium_pressure": 87.49,
+    "vibration": 0.396,
+    "error_count": 8,
+    "scan_volume": 25
+  },
+  {
+    "date": "2025-03-20",
+    "machine_id": "CT_002",
+    "temperature": 71.45,
+    "helium_pressure": 96.8,
+    "vibration": 0.849,
+    "error_count": 4,
+    "scan_volume": 57
+  },
+  {
+    "date": "2025-03-21",
+    "machine_id": "MRI_001",
+    "temperature": 61.75,
+    "helium_pressure": 87.47,
+    "vibration": 0.708,
+    "error_count": 9,
+    "scan_volume": 34
+  },
+  {
+    "date": "2025-03-21",
+    "machine_id": "MRI_002",
+    "temperature": 66.46,
+    "helium_pressure": 97.04,
+    "vibration": 0.561,
+    "error_count": 6,
+    "scan_volume": 44
+  },
+  {
+    "date": "2025-03-21",
+    "machine_id": "CT_001",
+    "temperature": 76.88,
+    "helium_pressure": 84.91,
+    "vibration": 0.783,
+    "error_count": 3,
+    "scan_volume": 25
+  },
+  {
+    "date": "2025-03-21",
+    "machine_id": "CT_002",
+    "temperature": 69.06,
+    "helium_pressure": 97.69,
+    "vibration": 0.209,
+    "error_count": 5,
+    "scan_volume": 32
+  },
+  {
+    "date": "2025-03-22",
+    "machine_id": "MRI_001",
+    "temperature": 65.31,
+    "helium_pressure": 88.16,
+    "vibration": 0.847,
+    "error_count": 4,
+    "scan_volume": 28
+  },
+  {
+    "date": "2025-03-22",
+    "machine_id": "MRI_002",
+    "temperature": 79.95,
+    "helium_pressure": 97.26,
+    "vibration": 0.621,
+    "error_count": 9,
+    "scan_volume": 37
+  },
+  {
+    "date": "2025-03-22",
+    "machine_id": "CT_001",
+    "temperature": 64.96,
+    "helium_pressure": 96.36,
+    "vibration": 0.853,
+    "error_count": 1,
+    "scan_volume": 44
+  },
+  {
+    "date": "2025-03-22",
+    "machine_id": "CT_002",
+    "temperature": 75.54,
+    "helium_pressure": 96.18,
+    "vibration": 0.271,
+    "error_count": 12,
+    "scan_volume": 28
+  },
+  {
+    "date": "2025-03-23",
+    "machine_id": "MRI_001",
+    "temperature": 69.06,
+    "helium_pressure": 88.6,
+    "vibration": 0.626,
+    "error_count": 7,
+    "scan_volume": 39
+  },
+  {
+    "date": "2025-03-23",
+    "machine_id": "MRI_002",
+    "temperature": 62.08,
+    "helium_pressure": 96.52,
+    "vibration": 0.823,
+    "error_count": 0,
+    "scan_volume": 59
+  },
+  {
+    "date": "2025-03-23",
+    "machine_id": "CT_001",
+    "temperature": 72.91,
+    "helium_pressure": 93.69,
+    "vibration": 0.497,
+    "error_count": 8,
+    "scan_volume": 47
+  },
+  {
+    "date": "2025-03-23",
+    "machine_id": "CT_002",
+    "temperature": 78.4,
+    "helium_pressure": 84.27,
+    "vibration": 0.196,
+    "error_count": 5,
+    "scan_volume": 60
+  },
+  {
+    "date": "2025-03-24",
+    "machine_id": "MRI_001",
+    "temperature": 68.93,
+    "helium_pressure": 96.66,
+    "vibration": 0.546,
+    "error_count": 5,
+    "scan_volume": 35
+  },
+  {
+    "date": "2025-03-24",
+    "machine_id": "MRI_002",
+    "temperature": 64.18,
+    "helium_pressure": 95.05,
+    "vibration": 0.626,
+    "error_count": 11,
+    "scan_volume": 36
+  },
+  {
+    "date": "2025-03-24",
+    "machine_id": "CT_001",
+    "temperature": 68.66,
+    "helium_pressure": 96.49,
+    "vibration": 0.738,
+    "error_count": 4,
+    "scan_volume": 42
+  },
+  {
+    "date": "2025-03-24",
+    "machine_id": "CT_002",
+    "temperature": 76.88,
+    "helium_pressure": 92.41,
+    "vibration": 0.643,
+    "error_count": 0,
+    "scan_volume": 32
+  },
+  {
+    "date": "2025-03-25",
+    "machine_id": "MRI_001",
+    "temperature": 69.94,
+    "helium_pressure": 92.29,
+    "vibration": 0.231,
+    "error_count": 10,
+    "scan_volume": 26
+  },
+  {
+    "date": "2025-03-25",
+    "machine_id": "MRI_002",
+    "temperature": 73.83,
+    "helium_pressure": 88.57,
+    "vibration": 0.373,
+    "error_count": 11,
+    "scan_volume": 34
+  },
+  {
+    "date": "2025-03-25",
+    "machine_id": "CT_001",
+    "temperature": 64.45,
+    "helium_pressure": 89.12,
+    "vibration": 0.462,
+    "error_count": 9,
+    "scan_volume": 52
+  },
+  {
+    "date": "2025-03-25",
+    "machine_id": "CT_002",
+    "temperature": 68.01,
+    "helium_pressure": 87.18,
+    "vibration": 0.251,
+    "error_count": 7,
+    "scan_volume": 25
+  },
+  {
+    "date": "2025-03-26",
+    "machine_id": "MRI_001",
+    "temperature": 62.23,
+    "helium_pressure": 96.58,
+    "vibration": 0.617,
+    "error_count": 0,
+    "scan_volume": 47
+  },
+  {
+    "date": "2025-03-26",
+    "machine_id": "MRI_002",
+    "temperature": 76.31,
+    "helium_pressure": 95.02,
+    "vibration": 0.846,
+    "error_count": 1,
+    "scan_volume": 26
+  },
+  {
+    "date": "2025-03-26",
+    "machine_id": "CT_001",
+    "temperature": 78.55,
+    "helium_pressure": 87.88,
+    "vibration": 0.619,
+    "error_count": 10,
+    "scan_volume": 27
+  },
+  {
+    "date": "2025-03-26",
+    "machine_id": "CT_002",
+    "temperature": 60.73,
+    "helium_pressure": 96.73,
+    "vibration": 0.487,
+    "error_count": 10,
+    "scan_volume": 36
+  },
+  {
+    "date": "2025-03-27",
+    "machine_id": "MRI_001",
+    "temperature": 74.59,
+    "helium_pressure": 83.05,
+    "vibration": 0.249,
+    "error_count": 7,
+    "scan_volume": 37
+  },
+  {
+    "date": "2025-03-27",
+    "machine_id": "MRI_002",
+    "temperature": 62.4,
+    "helium_pressure": 82.42,
+    "vibration": 0.341,
+    "error_count": 9,
+    "scan_volume": 32
+  },
+  {
+    "date": "2025-03-27",
+    "machine_id": "CT_001",
+    "temperature": 75.38,
+    "helium_pressure": 85.48,
+    "vibration": 0.418,
+    "error_count": 12,
+    "scan_volume": 30
+  },
+  {
+    "date": "2025-03-27",
+    "machine_id": "CT_002",
+    "temperature": 69.89,
+    "helium_pressure": 84.63,
+    "vibration": 0.128,
+    "error_count": 1,
+    "scan_volume": 37
+  },
+  {
+    "date": "2025-03-28",
+    "machine_id": "MRI_001",
+    "temperature": 67.56,
+    "helium_pressure": 87.53,
+    "vibration": 0.667,
+    "error_count": 8,
+    "scan_volume": 50
+  },
+  {
+    "date": "2025-03-28",
+    "machine_id": "MRI_002",
+    "temperature": 63.52,
+    "helium_pressure": 93.53,
+    "vibration": 0.581,
+    "error_count": 2,
+    "scan_volume": 56
+  },
+  {
+    "date": "2025-03-28",
+    "machine_id": "CT_001",
+    "temperature": 75.68,
+    "helium_pressure": 87.5,
+    "vibration": 0.675,
+    "error_count": 9,
+    "scan_volume": 47
+  },
+  {
+    "date": "2025-03-28",
+    "machine_id": "CT_002",
+    "temperature": 76.54,
+    "helium_pressure": 95.76,
+    "vibration": 0.646,
+    "error_count": 3,
+    "scan_volume": 34
+  },
+  {
+    "date": "2025-03-29",
+    "machine_id": "MRI_001",
+    "temperature": 63.38,
+    "helium_pressure": 92.24,
+    "vibration": 0.717,
+    "error_count": 7,
+    "scan_volume": 39
+  },
+  {
+    "date": "2025-03-29",
+    "machine_id": "MRI_002",
+    "temperature": 73.99,
+    "helium_pressure": 85.04,
+    "vibration": 0.518,
+    "error_count": 9,
+    "scan_volume": 36
+  },
+  {
+    "date": "2025-03-29",
+    "machine_id": "CT_001",
+    "temperature": 60.03,
+    "helium_pressure": 87.82,
+    "vibration": 0.479,
+    "error_count": 11,
+    "scan_volume": 39
+  },
+  {
+    "date": "2025-03-29",
+    "machine_id": "CT_002",
+    "temperature": 75.64,
+    "helium_pressure": 85.61,
+    "vibration": 0.281,
+    "error_count": 6,
+    "scan_volume": 30
+  },
+  {
+    "date": "2025-03-30",
+    "machine_id": "MRI_001",
+    "temperature": 70.15,
+    "helium_pressure": 97.55,
+    "vibration": 0.476,
+    "error_count": 1,
+    "scan_volume": 28
+  },
+  {
+    "date": "2025-03-30",
+    "machine_id": "MRI_002",
+    "temperature": 71.02,
+    "helium_pressure": 89.35,
+    "vibration": 0.509,
+    "error_count": 6,
+    "scan_volume": 56
+  },
+  {
+    "date": "2025-03-30",
+    "machine_id": "CT_001",
+    "temperature": 75.76,
+    "helium_pressure": 83.93,
+    "vibration": 0.505,
+    "error_count": 2,
+    "scan_volume": 37
+  },
+  {
+    "date": "2025-03-30",
+    "machine_id": "CT_002",
+    "temperature": 67.62,
+    "helium_pressure": 83.58,
+    "vibration": 0.493,
+    "error_count": 2,
+    "scan_volume": 50
+  },
+  {
+    "date": "2025-03-31",
+    "machine_id": "MRI_001",
+    "temperature": 62.0,
+    "helium_pressure": 92.32,
+    "vibration": 0.862,
+    "error_count": 8,
+    "scan_volume": 39
+  },
+  {
+    "date": "2025-03-31",
+    "machine_id": "MRI_002",
+    "temperature": 77.86,
+    "helium_pressure": 90.93,
+    "vibration": 0.548,
+    "error_count": 2,
+    "scan_volume": 30
+  },
+  {
+    "date": "2025-03-31",
+    "machine_id": "CT_001",
+    "temperature": 79.27,
+    "helium_pressure": 89.89,
+    "vibration": 0.735,
+    "error_count": 10,
+    "scan_volume": 52
+  },
+  {
+    "date": "2025-03-31",
+    "machine_id": "CT_002",
+    "temperature": 78.46,
+    "helium_pressure": 94.19,
+    "vibration": 0.527,
+    "error_count": 4,
+    "scan_volume": 50
+  },
+  {
+    "date": "2025-04-01",
+    "machine_id": "MRI_001",
+    "temperature": 69.57,
+    "helium_pressure": 87.19,
+    "vibration": 0.703,
+    "error_count": 2,
+    "scan_volume": 34
+  },
+  {
+    "date": "2025-04-01",
+    "machine_id": "MRI_002",
+    "temperature": 64.2,
+    "helium_pressure": 97.52,
+    "vibration": 0.273,
+    "error_count": 11,
+    "scan_volume": 34
+  },
+  {
+    "date": "2025-04-01",
+    "machine_id": "CT_001",
+    "temperature": 62.83,
+    "helium_pressure": 84.58,
+    "vibration": 0.67,
+    "error_count": 0,
+    "scan_volume": 31
+  },
+  {
+    "date": "2025-04-01",
+    "machine_id": "CT_002",
+    "temperature": 75.09,
+    "helium_pressure": 86.67,
+    "vibration": 0.898,
+    "error_count": 5,
+    "scan_volume": 60
+  },
+  {
+    "date": "2025-04-02",
+    "machine_id": "MRI_001",
+    "temperature": 79.81,
+    "helium_pressure": 95.73,
+    "vibration": 0.553,
+    "error_count": 11,
+    "scan_volume": 36
+  },
+  {
+    "date": "2025-04-02",
+    "machine_id": "MRI_002",
+    "temperature": 63.57,
+    "helium_pressure": 97.33,
+    "vibration": 0.424,
+    "error_count": 6,
+    "scan_volume": 36
+  },
+  {
+    "date": "2025-04-02",
+    "machine_id": "CT_001",
+    "temperature": 76.42,
+    "helium_pressure": 91.89,
+    "vibration": 0.894,
+    "error_count": 3,
+    "scan_volume": 48
+  },
+  {
+    "date": "2025-04-02",
+    "machine_id": "CT_002",
+    "temperature": 73.12,
+    "helium_pressure": 96.4,
+    "vibration": 0.294,
+    "error_count": 10,
+    "scan_volume": 55
+  },
+  {
+    "date": "2025-04-03",
+    "machine_id": "MRI_001",
+    "temperature": 77.29,
+    "helium_pressure": 85.91,
+    "vibration": 0.784,
+    "error_count": 1,
+    "scan_volume": 59
+  },
+  {
+    "date": "2025-04-03",
+    "machine_id": "MRI_002",
+    "temperature": 61.11,
+    "helium_pressure": 88.35,
+    "vibration": 0.734,
+    "error_count": 4,
+    "scan_volume": 31
+  },
+  {
+    "date": "2025-04-03",
+    "machine_id": "CT_001",
+    "temperature": 76.55,
+    "helium_pressure": 82.1,
+    "vibration": 0.635,
+    "error_count": 3,
+    "scan_volume": 60
+  },
+  {
+    "date": "2025-04-03",
+    "machine_id": "CT_002",
+    "temperature": 79.0,
+    "helium_pressure": 94.35,
+    "vibration": 0.623,
+    "error_count": 5,
+    "scan_volume": 34
+  },
+  {
+    "date": "2025-04-04",
+    "machine_id": "MRI_001",
+    "temperature": 60.27,
+    "helium_pressure": 92.56,
+    "vibration": 0.276,
+    "error_count": 6,
+    "scan_volume": 36
+  },
+  {
+    "date": "2025-04-04",
+    "machine_id": "MRI_002",
+    "temperature": 68.03,
+    "helium_pressure": 82.92,
+    "vibration": 0.728,
+    "error_count": 10,
+    "scan_volume": 50
+  },
+  {
+    "date": "2025-04-04",
+    "machine_id": "CT_001",
+    "temperature": 64.58,
+    "helium_pressure": 95.25,
+    "vibration": 0.479,
+    "error_count": 5,
+    "scan_volume": 49
+  },
+  {
+    "date": "2025-04-04",
+    "machine_id": "CT_002",
+    "temperature": 61.27,
+    "helium_pressure": 93.69,
+    "vibration": 0.733,
+    "error_count": 0,
+    "scan_volume": 48
+  },
+  {
+    "date": "2025-04-05",
+    "machine_id": "MRI_001",
+    "temperature": 66.37,
+    "helium_pressure": 91.1,
+    "vibration": 0.739,
+    "error_count": 10,
+    "scan_volume": 29
+  },
+  {
+    "date": "2025-04-05",
+    "machine_id": "MRI_002",
+    "temperature": 67.37,
+    "helium_pressure": 88.85,
+    "vibration": 0.676,
+    "error_count": 1,
+    "scan_volume": 29
+  },
+  {
+    "date": "2025-04-05",
+    "machine_id": "CT_001",
+    "temperature": 71.32,
+    "helium_pressure": 96.69,
+    "vibration": 0.374,
+    "error_count": 6,
+    "scan_volume": 42
+  },
+  {
+    "date": "2025-04-05",
+    "machine_id": "CT_002",
+    "temperature": 60.34,
+    "helium_pressure": 96.93,
+    "vibration": 0.173,
+    "error_count": 11,
+    "scan_volume": 49
+  },
+  {
+    "date": "2025-04-06",
+    "machine_id": "MRI_001",
+    "temperature": 71.85,
+    "helium_pressure": 85.38,
+    "vibration": 0.357,
+    "error_count": 8,
+    "scan_volume": 56
+  },
+  {
+    "date": "2025-04-06",
+    "machine_id": "MRI_002",
+    "temperature": 67.16,
+    "helium_pressure": 84.96,
+    "vibration": 0.482,
+    "error_count": 0,
+    "scan_volume": 33
+  },
+  {
+    "date": "2025-04-06",
+    "machine_id": "CT_001",
+    "temperature": 60.36,
+    "helium_pressure": 84.7,
+    "vibration": 0.881,
+    "error_count": 10,
+    "scan_volume": 25
+  },
+  {
+    "date": "2025-04-06",
+    "machine_id": "CT_002",
+    "temperature": 61.42,
+    "helium_pressure": 95.87,
+    "vibration": 0.497,
+    "error_count": 2,
+    "scan_volume": 30
+  },
+  {
+    "date": "2025-04-07",
+    "machine_id": "MRI_001",
+    "temperature": 62.99,
+    "helium_pressure": 83.17,
+    "vibration": 0.261,
+    "error_count": 3,
+    "scan_volume": 52
+  },
+  {
+    "date": "2025-04-07",
+    "machine_id": "MRI_002",
+    "temperature": 78.12,
+    "helium_pressure": 91.92,
+    "vibration": 0.47,
+    "error_count": 9,
+    "scan_volume": 54
+  },
+  {
+    "date": "2025-04-07",
+    "machine_id": "CT_001",
+    "temperature": 68.12,
+    "helium_pressure": 91.06,
+    "vibration": 0.519,
+    "error_count": 3,
+    "scan_volume": 29
+  },
+  {
+    "date": "2025-04-07",
+    "machine_id": "CT_002",
+    "temperature": 63.3,
+    "helium_pressure": 89.85,
+    "vibration": 0.487,
+    "error_count": 1,
+    "scan_volume": 36
+  },
+  {
+    "date": "2025-04-08",
+    "machine_id": "MRI_001",
+    "temperature": 62.64,
+    "helium_pressure": 92.43,
+    "vibration": 0.64,
+    "error_count": 0,
+    "scan_volume": 54
+  },
+  {
+    "date": "2025-04-08",
+    "machine_id": "MRI_002",
+    "temperature": 79.18,
+    "helium_pressure": 93.13,
+    "vibration": 0.871,
+    "error_count": 8,
+    "scan_volume": 55
+  },
+  {
+    "date": "2025-04-08",
+    "machine_id": "CT_001",
+    "temperature": 72.97,
+    "helium_pressure": 88.73,
+    "vibration": 0.29,
+    "error_count": 10,
+    "scan_volume": 38
+  },
+  {
+    "date": "2025-04-08",
+    "machine_id": "CT_002",
+    "temperature": 78.81,
+    "helium_pressure": 92.96,
+    "vibration": 0.82,
+    "error_count": 11,
+    "scan_volume": 44
+  },
+  {
+    "date": "2025-04-09",
+    "machine_id": "MRI_001",
+    "temperature": 64.06,
+    "helium_pressure": 91.64,
+    "vibration": 0.604,
+    "error_count": 6,
+    "scan_volume": 46
+  },
+  {
+    "date": "2025-04-09",
+    "machine_id": "MRI_002",
+    "temperature": 66.18,
+    "helium_pressure": 82.49,
+    "vibration": 0.51,
+    "error_count": 11,
+    "scan_volume": 46
+  },
+  {
+    "date": "2025-04-09",
+    "machine_id": "CT_001",
+    "temperature": 63.63,
+    "helium_pressure": 84.0,
+    "vibration": 0.137,
+    "error_count": 1,
+    "scan_volume": 29
+  },
+  {
+    "date": "2025-04-09",
+    "machine_id": "CT_002",
+    "temperature": 67.04,
+    "helium_pressure": 82.38,
+    "vibration": 0.379,
+    "error_count": 12,
+    "scan_volume": 49
+  },
+  {
+    "date": "2025-04-10",
+    "machine_id": "MRI_001",
+    "temperature": 65.45,
+    "helium_pressure": 86.52,
+    "vibration": 0.612,
+    "error_count": 12,
+    "scan_volume": 43
+  },
+  {
+    "date": "2025-04-10",
+    "machine_id": "MRI_002",
+    "temperature": 69.6,
+    "helium_pressure": 93.38,
+    "vibration": 0.101,
+    "error_count": 6,
+    "scan_volume": 60
+  },
+  {
+    "date": "2025-04-10",
+    "machine_id": "CT_001",
+    "temperature": 69.29,
+    "helium_pressure": 86.9,
+    "vibration": 0.536,
+    "error_count": 12,
+    "scan_volume": 52
+  },
+  {
+    "date": "2025-04-10",
+    "machine_id": "CT_002",
+    "temperature": 69.93,
+    "helium_pressure": 86.76,
+    "vibration": 0.458,
+    "error_count": 7,
+    "scan_volume": 44
+  },
+  {
+    "date": "2025-04-11",
+    "machine_id": "MRI_001",
+    "temperature": 77.7,
+    "helium_pressure": 83.42,
+    "vibration": 0.753,
+    "error_count": 6,
+    "scan_volume": 47
+  },
+  {
+    "date": "2025-04-11",
+    "machine_id": "MRI_002",
+    "temperature": 68.53,
+    "helium_pressure": 97.85,
+    "vibration": 0.306,
+    "error_count": 5,
+    "scan_volume": 27
+  },
+  {
+    "date": "2025-04-11",
+    "machine_id": "CT_001",
+    "temperature": 60.46,
+    "helium_pressure": 85.91,
+    "vibration": 0.352,
+    "error_count": 3,
+    "scan_volume": 55
+  },
+  {
+    "date": "2025-04-11",
+    "machine_id": "CT_002",
+    "temperature": 63.98,
+    "helium_pressure": 91.42,
+    "vibration": 0.409,
+    "error_count": 4,
+    "scan_volume": 52
+  },
+  {
+    "date": "2025-04-12",
+    "machine_id": "MRI_001",
+    "temperature": 72.33,
+    "helium_pressure": 97.41,
+    "vibration": 0.453,
+    "error_count": 1,
+    "scan_volume": 47
+  },
+  {
+    "date": "2025-04-12",
+    "machine_id": "MRI_002",
+    "temperature": 62.75,
+    "helium_pressure": 93.14,
+    "vibration": 0.278,
+    "error_count": 3,
+    "scan_volume": 28
+  },
+  {
+    "date": "2025-04-12",
+    "machine_id": "CT_001",
+    "temperature": 73.89,
+    "helium_pressure": 91.5,
+    "vibration": 0.675,
+    "error_count": 2,
+    "scan_volume": 48
+  },
+  {
+    "date": "2025-04-12",
+    "machine_id": "CT_002",
+    "temperature": 67.0,
+    "helium_pressure": 84.58,
+    "vibration": 0.229,
+    "error_count": 6,
+    "scan_volume": 38
+  },
+  {
+    "date": "2025-04-13",
+    "machine_id": "MRI_001",
+    "temperature": 68.53,
+    "helium_pressure": 85.76,
+    "vibration": 0.163,
+    "error_count": 5,
+    "scan_volume": 43
+  },
+  {
+    "date": "2025-04-13",
+    "machine_id": "MRI_002",
+    "temperature": 78.32,
+    "helium_pressure": 91.93,
+    "vibration": 0.548,
+    "error_count": 9,
+    "scan_volume": 46
+  },
+  {
+    "date": "2025-04-13",
+    "machine_id": "CT_001",
+    "temperature": 72.23,
+    "helium_pressure": 87.58,
+    "vibration": 0.325,
+    "error_count": 10,
+    "scan_volume": 52
+  },
+  {
+    "date": "2025-04-13",
+    "machine_id": "CT_002",
+    "temperature": 64.96,
+    "helium_pressure": 97.56,
+    "vibration": 0.703,
+    "error_count": 4,
+    "scan_volume": 39
+  },
+  {
+    "date": "2025-04-14",
+    "machine_id": "MRI_001",
+    "temperature": 66.15,
+    "helium_pressure": 86.12,
+    "vibration": 0.158,
+    "error_count": 4,
+    "scan_volume": 32
+  },
+  {
+    "date": "2025-04-14",
+    "machine_id": "MRI_002",
+    "temperature": 67.91,
+    "helium_pressure": 96.85,
+    "vibration": 0.571,
+    "error_count": 12,
+    "scan_volume": 40
+  },
+  {
+    "date": "2025-04-14",
+    "machine_id": "CT_001",
+    "temperature": 76.68,
+    "helium_pressure": 97.12,
+    "vibration": 0.307,
+    "error_count": 9,
+    "scan_volume": 53
+  },
+  {
+    "date": "2025-04-14",
+    "machine_id": "CT_002",
+    "temperature": 65.7,
+    "helium_pressure": 91.2,
+    "vibration": 0.316,
+    "error_count": 6,
+    "scan_volume": 41
+  },
+  {
+    "date": "2025-04-15",
+    "machine_id": "MRI_001",
+    "temperature": 60.34,
+    "helium_pressure": 94.15,
+    "vibration": 0.769,
+    "error_count": 11,
+    "scan_volume": 60
+  },
+  {
+    "date": "2025-04-15",
+    "machine_id": "MRI_002",
+    "temperature": 63.43,
+    "helium_pressure": 85.59,
+    "vibration": 0.575,
+    "error_count": 8,
+    "scan_volume": 51
+  },
+  {
+    "date": "2025-04-15",
+    "machine_id": "CT_001",
+    "temperature": 62.57,
+    "helium_pressure": 93.57,
+    "vibration": 0.679,
+    "error_count": 3,
+    "scan_volume": 59
+  },
+  {
+    "date": "2025-04-15",
+    "machine_id": "CT_002",
+    "temperature": 72.85,
+    "helium_pressure": 96.12,
+    "vibration": 0.566,
+    "error_count": 4,
+    "scan_volume": 31
+  },
+  {
+    "date": "2025-04-16",
+    "machine_id": "MRI_001",
+    "temperature": 64.98,
+    "helium_pressure": 83.66,
+    "vibration": 0.106,
+    "error_count": 12,
+    "scan_volume": 53
+  },
+  {
+    "date": "2025-04-16",
+    "machine_id": "MRI_002",
+    "temperature": 62.58,
+    "helium_pressure": 93.06,
+    "vibration": 0.192,
+    "error_count": 7,
+    "scan_volume": 27
+  },
+  {
+    "date": "2025-04-16",
+    "machine_id": "CT_001",
+    "temperature": 69.58,
+    "helium_pressure": 86.82,
+    "vibration": 0.781,
+    "error_count": 5,
+    "scan_volume": 37
+  },
+  {
+    "date": "2025-04-16",
+    "machine_id": "CT_002",
+    "temperature": 65.74,
+    "helium_pressure": 93.36,
+    "vibration": 0.43,
+    "error_count": 5,
+    "scan_volume": 55
+  },
+  {
+    "date": "2025-04-17",
+    "machine_id": "MRI_001",
+    "temperature": 76.01,
+    "helium_pressure": 84.11,
+    "vibration": 0.722,
+    "error_count": 0,
+    "scan_volume": 40
+  },
+  {
+    "date": "2025-04-17",
+    "machine_id": "MRI_002",
+    "temperature": 60.2,
+    "helium_pressure": 86.83,
+    "vibration": 0.553,
+    "error_count": 4,
+    "scan_volume": 49
+  },
+  {
+    "date": "2025-04-17",
+    "machine_id": "CT_001",
+    "temperature": 78.58,
+    "helium_pressure": 84.37,
+    "vibration": 0.589,
+    "error_count": 9,
+    "scan_volume": 28
+  },
+  {
+    "date": "2025-04-17",
+    "machine_id": "CT_002",
+    "temperature": 76.46,
+    "helium_pressure": 84.26,
+    "vibration": 0.69,
+    "error_count": 5,
+    "scan_volume": 31
+  },
+  {
+    "date": "2025-04-18",
+    "machine_id": "MRI_001",
+    "temperature": 62.73,
+    "helium_pressure": 83.84,
+    "vibration": 0.687,
+    "error_count": 7,
+    "scan_volume": 46
+  },
+  {
+    "date": "2025-04-18",
+    "machine_id": "MRI_002",
+    "temperature": 77.17,
+    "helium_pressure": 95.83,
+    "vibration": 0.523,
+    "error_count": 9,
+    "scan_volume": 50
+  },
+  {
+    "date": "2025-04-18",
+    "machine_id": "CT_001",
+    "temperature": 63.81,
+    "helium_pressure": 91.32,
+    "vibration": 0.602,
+    "error_count": 7,
+    "scan_volume": 25
+  },
+  {
+    "date": "2025-04-18",
+    "machine_id": "CT_002",
+    "temperature": 71.11,
+    "helium_pressure": 88.88,
+    "vibration": 0.745,
+    "error_count": 9,
+    "scan_volume": 38
+  },
+  {
+    "date": "2025-04-19",
+    "machine_id": "MRI_001",
+    "temperature": 78.89,
+    "helium_pressure": 86.18,
+    "vibration": 0.388,
+    "error_count": 4,
+    "scan_volume": 37
+  },
+  {
+    "date": "2025-04-19",
+    "machine_id": "MRI_002",
+    "temperature": 65.19,
+    "helium_pressure": 87.24,
+    "vibration": 0.41,
+    "error_count": 1,
+    "scan_volume": 29
+  },
+  {
+    "date": "2025-04-19",
+    "machine_id": "CT_001",
+    "temperature": 64.46,
+    "helium_pressure": 90.67,
+    "vibration": 0.397,
+    "error_count": 3,
+    "scan_volume": 43
+  },
+  {
+    "date": "2025-04-19",
+    "machine_id": "CT_002",
+    "temperature": 77.8,
+    "helium_pressure": 85.05,
+    "vibration": 0.426,
+    "error_count": 10,
+    "scan_volume": 33
+  },
+  {
+    "date": "2025-04-20",
+    "machine_id": "MRI_001",
+    "temperature": 60.67,
+    "helium_pressure": 85.98,
+    "vibration": 0.348,
+    "error_count": 4,
+    "scan_volume": 36
+  },
+  {
+    "date": "2025-04-20",
+    "machine_id": "MRI_002",
+    "temperature": 65.3,
+    "helium_pressure": 85.33,
+    "vibration": 0.186,
+    "error_count": 4,
+    "scan_volume": 39
+  },
+  {
+    "date": "2025-04-20",
+    "machine_id": "CT_001",
+    "temperature": 73.27,
+    "helium_pressure": 93.43,
+    "vibration": 0.433,
+    "error_count": 11,
+    "scan_volume": 50
+  },
+  {
+    "date": "2025-04-20",
+    "machine_id": "CT_002",
+    "temperature": 75.63,
+    "helium_pressure": 90.64,
+    "vibration": 0.122,
+    "error_count": 8,
+    "scan_volume": 45
+  },
+  {
+    "date": "2025-04-21",
+    "machine_id": "MRI_001",
+    "temperature": 74.22,
+    "helium_pressure": 96.35,
+    "vibration": 0.555,
+    "error_count": 4,
+    "scan_volume": 49
+  },
+  {
+    "date": "2025-04-21",
+    "machine_id": "MRI_002",
+    "temperature": 75.07,
+    "helium_pressure": 97.35,
+    "vibration": 0.222,
+    "error_count": 12,
+    "scan_volume": 30
+  },
+  {
+    "date": "2025-04-21",
+    "machine_id": "CT_001",
+    "temperature": 72.93,
+    "helium_pressure": 97.56,
+    "vibration": 0.451,
+    "error_count": 4,
+    "scan_volume": 29
+  },
+  {
+    "date": "2025-04-21",
+    "machine_id": "CT_002",
+    "temperature": 69.32,
+    "helium_pressure": 85.01,
+    "vibration": 0.13,
+    "error_count": 3,
+    "scan_volume": 45
+  },
+  {
+    "date": "2025-04-22",
+    "machine_id": "MRI_001",
+    "temperature": 61.17,
+    "helium_pressure": 85.65,
+    "vibration": 0.735,
+    "error_count": 5,
+    "scan_volume": 28
+  },
+  {
+    "date": "2025-04-22",
+    "machine_id": "MRI_002",
+    "temperature": 63.27,
+    "helium_pressure": 95.04,
+    "vibration": 0.588,
+    "error_count": 4,
+    "scan_volume": 52
+  },
+  {
+    "date": "2025-04-22",
+    "machine_id": "CT_001",
+    "temperature": 67.82,
+    "helium_pressure": 84.9,
+    "vibration": 0.701,
+    "error_count": 11,
+    "scan_volume": 35
+  },
+  {
+    "date": "2025-04-22",
+    "machine_id": "CT_002",
+    "temperature": 63.98,
+    "helium_pressure": 84.14,
+    "vibration": 0.895,
+    "error_count": 9,
+    "scan_volume": 39
+  },
+  {
+    "date": "2025-04-23",
+    "machine_id": "MRI_001",
+    "temperature": 60.19,
+    "helium_pressure": 82.26,
+    "vibration": 0.364,
+    "error_count": 9,
+    "scan_volume": 31
+  },
+  {
+    "date": "2025-04-23",
+    "machine_id": "MRI_002",
+    "temperature": 64.31,
+    "helium_pressure": 96.05,
+    "vibration": 0.284,
+    "error_count": 3,
+    "scan_volume": 37
+  },
+  {
+    "date": "2025-04-23",
+    "machine_id": "CT_001",
+    "temperature": 65.07,
+    "helium_pressure": 89.5,
+    "vibration": 0.154,
+    "error_count": 11,
+    "scan_volume": 32
+  },
+  {
+    "date": "2025-04-23",
+    "machine_id": "CT_002",
+    "temperature": 73.41,
+    "helium_pressure": 88.84,
+    "vibration": 0.465,
+    "error_count": 0,
+    "scan_volume": 53
+  },
+  {
+    "date": "2025-04-24",
+    "machine_id": "MRI_001",
+    "temperature": 77.12,
+    "helium_pressure": 84.27,
+    "vibration": 0.483,
+    "error_count": 9,
+    "scan_volume": 47
+  },
+  {
+    "date": "2025-04-24",
+    "machine_id": "MRI_002",
+    "temperature": 75.02,
+    "helium_pressure": 87.04,
+    "vibration": 0.819,
+    "error_count": 0,
+    "scan_volume": 36
+  },
+  {
+    "date": "2025-04-24",
+    "machine_id": "CT_001",
+    "temperature": 65.56,
+    "helium_pressure": 87.92,
+    "vibration": 0.145,
+    "error_count": 2,
+    "scan_volume": 39
+  },
+  {
+    "date": "2025-04-24",
+    "machine_id": "CT_002",
+    "temperature": 74.69,
+    "helium_pressure": 90.9,
+    "vibration": 0.307,
+    "error_count": 7,
+    "scan_volume": 35
+  },
+  {
+    "date": "2025-04-25",
+    "machine_id": "MRI_001",
+    "temperature": 64.7,
+    "helium_pressure": 85.47,
+    "vibration": 0.673,
+    "error_count": 12,
+    "scan_volume": 33
+  },
+  {
+    "date": "2025-04-25",
+    "machine_id": "MRI_002",
+    "temperature": 60.93,
+    "helium_pressure": 90.64,
+    "vibration": 0.467,
+    "error_count": 12,
+    "scan_volume": 26
+  },
+  {
+    "date": "2025-04-25",
+    "machine_id": "CT_001",
+    "temperature": 61.82,
+    "helium_pressure": 93.48,
+    "vibration": 0.866,
+    "error_count": 10,
+    "scan_volume": 33
+  },
+  {
+    "date": "2025-04-25",
+    "machine_id": "CT_002",
+    "temperature": 65.85,
+    "helium_pressure": 96.1,
+    "vibration": 0.147,
+    "error_count": 11,
+    "scan_volume": 51
+  },
+  {
+    "date": "2025-04-26",
+    "machine_id": "MRI_001",
+    "temperature": 78.33,
+    "helium_pressure": 86.14,
+    "vibration": 0.806,
+    "error_count": 7,
+    "scan_volume": 31
+  },
+  {
+    "date": "2025-04-26",
+    "machine_id": "MRI_002",
+    "temperature": 76.63,
+    "helium_pressure": 89.62,
+    "vibration": 0.609,
+    "error_count": 7,
+    "scan_volume": 45
+  },
+  {
+    "date": "2025-04-26",
+    "machine_id": "CT_001",
+    "temperature": 76.5,
+    "helium_pressure": 88.62,
+    "vibration": 0.598,
+    "error_count": 9,
+    "scan_volume": 36
+  },
+  {
+    "date": "2025-04-26",
+    "machine_id": "CT_002",
+    "temperature": 78.51,
+    "helium_pressure": 82.8,
+    "vibration": 0.388,
+    "error_count": 8,
+    "scan_volume": 39
+  },
+  {
+    "date": "2025-04-27",
+    "machine_id": "MRI_001",
+    "temperature": 70.74,
+    "helium_pressure": 96.73,
+    "vibration": 0.223,
+    "error_count": 10,
+    "scan_volume": 55
+  },
+  {
+    "date": "2025-04-27",
+    "machine_id": "MRI_002",
+    "temperature": 72.58,
+    "helium_pressure": 87.43,
+    "vibration": 0.798,
+    "error_count": 1,
+    "scan_volume": 36
+  },
+  {
+    "date": "2025-04-27",
+    "machine_id": "CT_001",
+    "temperature": 63.11,
+    "helium_pressure": 91.58,
+    "vibration": 0.742,
+    "error_count": 9,
+    "scan_volume": 46
+  },
+  {
+    "date": "2025-04-27",
+    "machine_id": "CT_002",
+    "temperature": 67.71,
+    "helium_pressure": 94.13,
+    "vibration": 0.325,
+    "error_count": 4,
+    "scan_volume": 57
+  },
+  {
+    "date": "2025-04-28",
+    "machine_id": "MRI_001",
+    "temperature": 74.49,
+    "helium_pressure": 84.36,
+    "vibration": 0.298,
+    "error_count": 3,
+    "scan_volume": 37
+  },
+  {
+    "date": "2025-04-28",
+    "machine_id": "MRI_002",
+    "temperature": 69.03,
+    "helium_pressure": 94.31,
+    "vibration": 0.161,
+    "error_count": 2,
+    "scan_volume": 31
+  },
+  {
+    "date": "2025-04-28",
+    "machine_id": "CT_001",
+    "temperature": 62.6,
+    "helium_pressure": 83.38,
+    "vibration": 0.138,
+    "error_count": 8,
+    "scan_volume": 54
+  },
+  {
+    "date": "2025-04-28",
+    "machine_id": "CT_002",
+    "temperature": 79.32,
+    "helium_pressure": 82.67,
+    "vibration": 0.658,
+    "error_count": 11,
+    "scan_volume": 60
+  },
+  {
+    "date": "2025-04-29",
+    "machine_id": "MRI_001",
+    "temperature": 68.32,
+    "helium_pressure": 96.69,
+    "vibration": 0.591,
+    "error_count": 10,
+    "scan_volume": 29
+  },
+  {
+    "date": "2025-04-29",
+    "machine_id": "MRI_002",
+    "temperature": 69.09,
+    "helium_pressure": 82.79,
+    "vibration": 0.76,
+    "error_count": 4,
+    "scan_volume": 27
+  },
+  {
+    "date": "2025-04-29",
+    "machine_id": "CT_001",
+    "temperature": 75.96,
+    "helium_pressure": 96.92,
+    "vibration": 0.579,
+    "error_count": 5,
+    "scan_volume": 31
+  },
+  {
+    "date": "2025-04-29",
+    "machine_id": "CT_002",
+    "temperature": 71.76,
+    "helium_pressure": 91.91,
+    "vibration": 0.301,
+    "error_count": 5,
+    "scan_volume": 36
+  },
+  {
+    "date": "2025-04-30",
+    "machine_id": "MRI_001",
+    "temperature": 71.96,
+    "helium_pressure": 93.76,
+    "vibration": 0.818,
+    "error_count": 1,
+    "scan_volume": 56
+  },
+  {
+    "date": "2025-04-30",
+    "machine_id": "MRI_002",
+    "temperature": 62.04,
+    "helium_pressure": 84.81,
+    "vibration": 0.824,
+    "error_count": 6,
+    "scan_volume": 41
+  },
+  {
+    "date": "2025-04-30",
+    "machine_id": "CT_001",
+    "temperature": 65.0,
+    "helium_pressure": 90.92,
+    "vibration": 0.245,
+    "error_count": 0,
+    "scan_volume": 48
+  },
+  {
+    "date": "2025-04-30",
+    "machine_id": "CT_002",
+    "temperature": 77.14,
+    "helium_pressure": 84.39,
+    "vibration": 0.19,
+    "error_count": 2,
+    "scan_volume": 49
+  }
+]

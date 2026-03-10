@@ -1,0 +1,53 @@
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Environment files (keep templates)
+.env
+.env.*
+!.env.example
+
+# Node.js dependencies and outputs
+node_modules/
+**/node_modules/
+dist/
+build/
+coverage/
+.nyc_output/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Python caches and virtual envs
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.venv/
+venv/
+env/
+
+# Jupyter and temp
+.ipynb_checkpoints/
+*.tmp
+*.temp
+
+# Runtime / process files
+*.pid
+*.seed
+
+# Optional local-only files
+*.local

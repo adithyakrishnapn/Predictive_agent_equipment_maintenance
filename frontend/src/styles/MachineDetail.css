@@ -1,0 +1,264 @@
+.machine-detail {
+  animation: fadeIn 0.3s ease-in;
+}
+
+.detail-header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.back-btn {
+  background: #42A5F5;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.back-btn:hover {
+  background: #1976D2;
+}
+
+.detail-header h2 {
+  font-size: 1.8rem;
+  color: #1a1a2e;
+  flex: 1;
+  margin: 0;
+}
+
+.monitoring-pill {
+  padding: 0.4rem 0.75rem;
+  border-radius: 999px;
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+.monitoring-pill.active {
+  background: #e8f5e9;
+  color: #1b5e20;
+}
+
+.monitoring-pill.inactive {
+  background: #ffebee;
+  color: #b71c1c;
+}
+
+/* Status Grid */
+.status-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.status-card {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  border-top: 3px solid #42A5F5;
+  transition: all 0.3s ease;
+}
+
+.status-card:hover {
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.status-card.risk-critical {
+  border-top-color: #F44336;
+}
+
+.status-card.risk-maintenance {
+  border-top-color: #FFC107;
+}
+
+.status-card.risk-normal {
+  border-top-color: #4CAF50;
+}
+
+.status-label {
+  font-size: 0.8rem;
+  color: #666;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-bottom: 0.5rem;
+}
+
+.empty-state-card {
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.empty-state-card h3 {
+  margin: 0 0 0.5rem 0;
+  color: #1a1a2e;
+}
+
+.empty-state-card p {
+  margin: 0 0 1rem 0;
+  color: #666;
+}
+
+.status-value {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #1a1a2e;
+}
+
+/* Baseline Section */
+.baseline-section {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  margin-bottom: 2rem;
+}
+
+.baseline-section h3 {
+  margin-bottom: 1rem;
+  color: #1a1a2e;
+  font-size: 1.1rem;
+}
+
+.baseline-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+}
+
+.baseline-item {
+  background: #f9f9f9;
+  padding: 1rem;
+  border-radius: 6px;
+  border-left: 3px solid #42A5F5;
+}
+
+.baseline-param {
+  font-weight: 600;
+  color: #1a1a2e;
+  margin-bottom: 0.5rem;
+}
+
+.baseline-range {
+  font-size: 0.85rem;
+  color: #666;
+  line-height: 1.5;
+}
+
+/* Chart Section */
+.chart-section {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  margin-bottom: 2rem;
+}
+
+.chart-section h3 {
+  margin-bottom: 1rem;
+  color: #1a1a2e;
+  font-size: 1.1rem;
+}
+
+/* Actions Section */
+.actions-section {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.actions-section h3 {
+  margin-bottom: 1rem;
+  color: #1a1a2e;
+}
+
+.action-buttons {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.action-btn {
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.action-btn:disabled {
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+
+.action-btn.primary {
+  background: #42A5F5;
+  color: white;
+}
+
+.action-btn.primary:hover {
+  background: #1976D2;
+}
+
+.action-btn.warning {
+  background: #FFC107;
+  color: #333;
+}
+
+.action-btn.warning:hover {
+  background: #F57F17;
+  color: white;
+}
+
+.action-btn.danger {
+  background: #F44336;
+  color: white;
+}
+
+.action-btn.danger:hover {
+  background: #C62828;
+}
+
+.action-message {
+  margin-top: 1rem;
+  color: #1a1a2e;
+  font-weight: 600;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .detail-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .action-buttons {
+    flex-direction: column;
+  }
+
+  .action-btn {
+    width: 100%;
+  }
+}

@@ -1,0 +1,312 @@
+.appointments {
+  animation: fadeIn 0.3s ease-in;
+}
+
+.appointments-header {
+  margin-bottom: 2rem;
+}
+
+.appointments-header h2 {
+  font-size: 1.8rem;
+  color: #1a1a2e;
+  margin-bottom: 1rem;
+}
+
+.appointment-tabs {
+  display: flex;
+  gap: 2rem;
+}
+
+.tab-info {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.95rem;
+  color: #666;
+}
+
+.tab-badge {
+  display: inline-block;
+  padding: 0.4rem 0.8rem;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: white;
+  margin-right: 0.5rem;
+}
+
+.tab-badge.upcoming {
+  background: #42A5F5;
+}
+
+.tab-badge.rescheduled {
+  background: #FFC107;
+  color: #333;
+}
+
+.tab-badge.cancelled {
+  background: #F44336;
+}
+
+/* Appointments Section */
+.appointments-section {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  margin-bottom: 2rem;
+}
+
+.appointments-section h3 {
+  margin-bottom: 1rem;
+  color: #1a1a2e;
+  font-size: 1.1rem;
+}
+
+.no-data {
+  text-align: center;
+  padding: 2rem;
+  color: #999;
+}
+
+/* Appointments Table */
+.appointments-table {
+  overflow-x: auto;
+}
+
+.table-header {
+  display: grid;
+  grid-template-columns: 150px 200px 150px 150px 150px 150px;
+  gap: 1rem;
+  padding: 1rem;
+  background: #f0f2f5;
+  border-radius: 6px 6px 0 0;
+  font-weight: 600;
+  color: #1a1a2e;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  position: sticky;
+  top: 0;
+}
+
+.table-row {
+  display: grid;
+  grid-template-columns: 150px 200px 150px 150px 150px 150px;
+  gap: 1rem;
+  padding: 1rem;
+  border-bottom: 1px solid #e0e0e0;
+  align-items: center;
+  transition: all 0.3s ease;
+}
+
+.table-row:hover {
+  background: #f9f9f9;
+}
+
+.table-row.rescheduled {
+  background: rgba(255, 193, 7, 0.05);
+}
+
+.table-row.cancelled {
+  background: rgba(244, 67, 54, 0.05);
+}
+
+.col {
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.col.col-id {
+  font-family: monospace;
+  font-size: 0.85rem;
+  color: #666;
+}
+
+.col.col-patient {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.patient-name {
+  font-weight: 600;
+  color: #1a1a2e;
+}
+
+.doctor {
+  font-size: 0.8rem;
+  color: #999;
+}
+
+.col.col-machine {
+  font-weight: 600;
+  color: #1a1a2e;
+}
+
+.col.col-time {
+  color: #666;
+}
+
+.col.col-time strong {
+  color: #1a1a2e;
+  display: block;
+}
+
+.col.col-type {
+  color: #666;
+}
+
+.col.col-reason {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.col.col-actions {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+/* Action Buttons */
+.action-btn {
+  padding: 0.4rem 0.8rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.8rem;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  white-space: nowrap;
+}
+
+.action-btn.secondary {
+  background: #42A5F5;
+  color: white;
+}
+
+.action-btn.secondary:hover {
+  background: #1976D2;
+}
+
+.action-btn.danger {
+  background: #F44336;
+  color: white;
+}
+
+.action-btn.danger:hover {
+  background: #C62828;
+}
+
+/* Recommendations Section */
+.recommendations-section {
+  background: linear-gradient(135deg, rgba(66, 165, 245, 0.1) 0%, rgba(66, 165, 245, 0) 100%);
+  border-left: 4px solid #42A5F5;
+  padding: 1.5rem;
+  border-radius: 8px;
+}
+
+.recommendations-section h3 {
+  color: #1a1a2e;
+  margin-bottom: 1rem;
+  font-size: 1.05rem;
+}
+
+.recommendations-section ul {
+  list-style: none;
+}
+
+.recommendations-section li {
+  padding: 0.5rem 0;
+  color: #666;
+  border-bottom: 1px solid rgba(0,0,0,0.05);
+}
+
+.recommendations-section li:before {
+  content: '→ ';
+  color: #42A5F5;
+  font-weight: 700;
+  margin-right: 0.5rem;
+}
+
+.recommendations-section li:last-child {
+  border-bottom: none;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Responsive */
+@media (max-width: 1200px) {
+  .table-header,
+  .table-row {
+    grid-template-columns: 100px 150px 120px 120px 150px;
+  }
+
+  .col.col-time {
+    min-width: 120px;
+  }
+}
+
+@media (max-width: 768px) {
+  .table-header,
+  .table-row {
+    grid-template-columns: 1fr;
+    gap: 0.5rem;
+  }
+
+  .col {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .col:before {
+    font-weight: 600;
+    color: #666;
+    text-transform: uppercase;
+    font-size: 0.75rem;
+  }
+
+  .col.col-id:before {
+    content: 'ID: ';
+  }
+
+  .col.col-patient:before {
+    content: 'Patient: ';
+  }
+
+  .col.col-machine:before {
+    content: 'Equipment: ';
+  }
+
+  .col.col-time:before {
+    content: 'Time: ';
+  }
+
+  .col.col-type:before {
+    content: 'Type: ';
+  }
+
+  .col.col-reason:before {
+    content: 'Reason: ';
+  }
+
+  .col.col-actions:before {
+    content: 'Actions: ';
+  }
+
+  .appointment-tabs {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+}
